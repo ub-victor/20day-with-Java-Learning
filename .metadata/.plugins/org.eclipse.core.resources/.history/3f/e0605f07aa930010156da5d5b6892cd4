@@ -1,0 +1,22 @@
+package day5;
+
+public class JumpStatementExample {
+
+	public static void main(String[] args) {
+//		for(int i = 1; i <= 10; i ++) {
+//			if(i == 5) {
+//				break;// used to terminate the loop
+//			}
+//			System.out.println(i);
+//		}
+//		System.out.println("end");
+
+		// continue
+		for(int i=1; i<=10; i++) {
+			if(i == 5) {
+				continue;
+			}
+		}
+	}
+
+}

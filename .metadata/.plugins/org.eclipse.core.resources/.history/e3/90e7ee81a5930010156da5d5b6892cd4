@@ -24,22 +24,16 @@ public class WhileExample {
 //		System.out.println("End of loop");
 		
 		// eg: 3
-//		int i = 1;
-//		
-//		while(i<=10)
-//		{
-//			if(i%2 == 0) {
-//				System.out.println(i);
-//			}
-//			i++;
-//		}
-		// eg: 3
-		int i = 10;
+		int i = 1;
 		
-		while(i>=1) {
-			System.out.println(i);
-			i--;
+		while(i<=10)
+		{
+			if(i%2 == 0) {
+				System.out.println(i);
+			}
+			i++;
 		}
+
 	}
 
 }

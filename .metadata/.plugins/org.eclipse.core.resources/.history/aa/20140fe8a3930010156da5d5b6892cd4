@@ -1,0 +1,24 @@
+package day5;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		
+//		int i=1;
+//		
+//		while(i<=10) {
+//			System.out.println("I like Java");
+//			i++;
+//		}
+//		System.out.println("End of loop");
+		
+		int i =1;
+		
+		while(i<=10) {
+			System.out.println("Iteration "+ i);
+			i++;
+		}
+
+	}
+
+}

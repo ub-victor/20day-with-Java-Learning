@@ -1,0 +1,15 @@
+package day5;
+
+public class DowhileExample {
+
+	public static void main(String[] args) {
+		// Print 1 2 ...10
+		int i = 1;
+		
+		do {
+			
+		}while(i<=10);
+
+	}
+
+}

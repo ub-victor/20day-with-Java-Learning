@@ -1,0 +1,41 @@
+package day5;
+
+public class JumpStatementExample {
+
+	public static void main(String[] args) {
+		/*
+		 Branching/ Jumping Statement: Used t change the flow of execution by jumping to another part of the program
+		 	1. break: Use to terminate a loop or switch statement prematurely
+		 	2. continue: Used to skip the current iteration of a loop and proceed with the next iteration
+		 */		
+		
+
+//		for(int i = 1; i <= 10; i ++) {
+//			if(i == 5) {
+//				break;// used to terminate the loop
+//			}
+//			System.out.println(i);
+//		}
+//		System.out.println("end");
+
+		// continue
+//		for(int i=1; i<=10; i++) {
+//			if(i == 5) {
+//				continue; // use to jump
+//			}
+//			System.out.println(i);
+//		}
+		
+
+		
+		for(int i=1; i<=10; i++) {
+		if(i == 1 || i == 3 || i == 5 || i== 7 || i ==9) {
+			continue; // use to jump
+			}
+		System.out.println(i);
+		}
+		
+		
+	}
+
+}
