@@ -1,0 +1,40 @@
+package day2;
+
+public class VariablesExample {
+
+	/**
+	 * @param args
+	 */
+	/**
+	 * @param args
+	 */
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// System.out.println("10");
+		
+		// Declaration
+//		int age; //declare variable
+//		age = 1000; // Initialize a variable
+//		System.out.println(age);
+//		age = 30; // assignment
+//		System.out.println(age);
+		
+		int age = 10;
+		
+		System.out.println(age);
+		
+//		int a = 10;
+//		int b = 20;
+//		int c = 30;
+//		Shortcut 
+		int a,b,c;
+		
+		
+		
+
+	}
+
+}

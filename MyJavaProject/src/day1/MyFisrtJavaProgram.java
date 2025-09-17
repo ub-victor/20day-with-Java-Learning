@@ -1,0 +1,16 @@
+package day1;
+
+public class MyFisrtJavaProgram 
+{
+	
+	public static void main(String args[])
+	{
+	
+		System.out.println("Welcome to Java World");
+		System.out.println("This is my first java brogram");
+		
+		System.out.println("Result:c " +(5+5));
+		
+	}
+	
+}

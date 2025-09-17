@@ -1,0 +1,14 @@
+package day4;
+
+public class IfExample {
+
+	public static void main(String[] args) {
+		int personAge= 25;
+		if(personAge >= 18)
+		{
+			
+		}
+
+	}
+
+}

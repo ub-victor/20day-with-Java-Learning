@@ -1,0 +1,14 @@
+package day3;
+
+public class TernaryOperatorExample {
+
+	public static void main(String[] args) {
+		
+		// var booleanExpression ? result : result2
+		
+		int a=10, b=20;
+		int result = (a>b)? a:b;
+
+	}
+
+}

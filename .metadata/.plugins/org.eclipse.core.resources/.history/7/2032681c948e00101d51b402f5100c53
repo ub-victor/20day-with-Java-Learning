@@ -1,0 +1,13 @@
+package day1;
+
+public class MyFisrtJavaProgram 
+{
+	
+	public static void main(String args[])
+	{
+	
+		System.out.println("Welcome to Java World");  
+		
+	}
+	
+}

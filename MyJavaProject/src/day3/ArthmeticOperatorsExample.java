@@ -1,0 +1,91 @@
+package day3;
+
+public class ArthmeticOperatorsExample {
+
+	public static void main(String[] args) {
+		int a = 10, b =30;
+		
+		System.out.println("Sum of a+ b = "+ (a+b));
+		System.out.println("Modulo: "+ (b%a));
+		
+		// Relational / Comparison operation
+		
+		System.out.println(a>b);
+		System.out.println(a!=b);
+		System.out.println(a==b);
+		
+		int c = 10;
+		int d = 20;
+
+		// Greater than
+		boolean isGT = c > d;      // false
+		System.out.println(isGT);
+
+		// Less than
+		boolean isLT = c < d;      // true
+		System.out.println(isLT);
+
+		// Greater than or equal to
+		boolean isGTE = c >= d;     // false
+		System.out.println(isGTE);
+
+		// Less than or equal to
+		boolean isLTE = c <= d;     // true
+		System.out.println(isLTE);
+
+		// Equal to
+		boolean isEQ = (c == d);    // false
+		System.out.println(isEQ);
+
+		// Not equal to
+		boolean isNEQ = (c != d);    // true
+		System.out.println(isNEQ);
+		
+		String s1 = new String("hello");
+		String s2 = new String("hello");
+
+		boolean refEq = (s1 == s2);      // false (different objects)
+		System.out.println(refEq);
+		boolean contentEq = s1.equals(s2); // true (same content)
+		System.out.println(contentEq);
+		
+		
+		// Logical operators
+		// & Ampersand
+		// | pipe symbol 
+		
+		int x = 7;
+		int y = 3;
+
+		// Example: both conditions true
+		boolean bothTrue = (x > 5) && (y < 10); // true
+		
+		System.out.println(bothTrue);
+
+		// Example: at least one condition true
+		boolean oneTrue = (x > 5) || (y > 5); // true
+		
+		System.out.println(oneTrue);
+
+		// Example: logical NOT
+		boolean notTrue = !(x == y); // true, since 7 == 3 is false, and not false is true
+		
+		System.out.println(notTrue);
+		
+//		double p = 0.1 + 0.2;
+//		boolean isExactlyEqual = (p == 0.3); // often false due to precision
+//		
+//		System.out.println(isExactlyEqual);
+		
+		double p = 0.1 + 0.2;
+		boolean isExactlyEqual = (p == 0.3); // often false due to precision
+		
+		System.out.println(isExactlyEqual);
+		
+		
+		
+		
+		
+	}
+
+}

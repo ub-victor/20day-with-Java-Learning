@@ -1,0 +1,52 @@
+package day3;
+
+public class arthmeticOperatorsExample {
+
+	public static void main(String[] args) {
+		int a = 10, b =30;
+		
+		System.out.println("Sum of a+ b = "+ (a+b));
+		System.out.println("Modulo: "+ (b%a));
+		
+		// Relational / Comparison operation
+		
+		System.out.println(a>b);
+		System.out.println(a!=b);
+		System.out.println(a==b);
+		
+		int c = 10;
+		int d = 20;
+
+		// Greater than
+		boolean isGT = c > s;      // false
+
+		// Less than
+		boolean isLT = c < d;      // true
+
+		// Greater than or equal to
+		boolean isGTE = c >= d;     // false
+
+		// Less than or equal to
+		boolean isLTE = c <= d;     // true
+
+		// Equal to
+		boolean isEQ = (c == d);    // false
+
+		// Not equal to
+		boolean isNEQ = (c != d);    // true
+		
+		String s1 = new String("hello");
+		String s2 = new String("hello");
+
+		boolean refEq = (s1 == s2);      // false (different objects)
+		boolean contentEq = s1.equals(s2); // true (same content)
+		
+		
+		// & Ampersand
+		// | pipe symbol 
+		
+		
+		
+	}
+
+}

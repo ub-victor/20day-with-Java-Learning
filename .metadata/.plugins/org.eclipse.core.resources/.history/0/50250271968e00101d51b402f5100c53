@@ -1,0 +1,13 @@
+package day1;
+
+public class MySecondJavaProgram {
+
+	public static void main(String[] args) {
+		// In case you use print it pu
+		
+		System.out.print("I like Java ");
+		System.out.println("I like selenium too");
+
+	}
+
+}
