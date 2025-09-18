@@ -1,4 +1,4 @@
-package System.out;
+package day4;
 
 public class PositiveOrNegativeNumber {
 

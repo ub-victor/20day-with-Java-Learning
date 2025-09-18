@@ -1,4 +1,4 @@
-package System.out;
+package day4;
 import java.util.Scanner;
 
 public class PositiveOrNegativeNumber2 {
