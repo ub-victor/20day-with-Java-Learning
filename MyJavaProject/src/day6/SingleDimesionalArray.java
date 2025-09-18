@@ -42,17 +42,7 @@ public class SingleDimesionalArray {
 		//for(datatype var:array name)
 		for(int element:a ) {
 			System.out.println(element);
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}		
 		
 	}
 

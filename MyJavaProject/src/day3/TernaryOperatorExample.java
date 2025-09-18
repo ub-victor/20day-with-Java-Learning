@@ -19,8 +19,9 @@ public class TernaryOperatorExample {
 		
 //		String result3 = (10==10)? "Correct" : "Incorrect";
 //		System.out.println(result3);
+		int e = 10, f=10;
 
-		boolean isCorrect = (10 == 10);
+		boolean isCorrect = (e == f);
 		System.out.println(isCorrect ? "Correct" : "Incorrect");
 	}
 
