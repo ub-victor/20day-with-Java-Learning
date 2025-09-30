@@ -7,7 +7,7 @@ public class Employee {
 	String job;
 	Double salary;
 	
-	
+	 
 
 	public static void main(String[] args) {
 		
