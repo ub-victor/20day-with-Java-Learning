@@ -5,7 +5,7 @@ public class Employee {
 	int empId;
 	String empName;
 	String job;
-	Double salary;
+	Double salary; 
 	
 	 //17:38
 
