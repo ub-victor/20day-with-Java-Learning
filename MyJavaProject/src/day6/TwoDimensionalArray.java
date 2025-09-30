@@ -43,13 +43,20 @@ public class TwoDimensionalArray {
 			When row=2, col=1 → prints b[2][1] = 60
 		 */
 		
-		for(int row = 0; row<3; row++) { // Outer loop
-			for(int col=0; col<2; col++) { // inner loop
-				System.out.print(b[row][col] + " "); // let us use print, not println
+//		for(int row = 0; row<3; row++) { // Outer loop
+//			for(int col=0; col<2; col++) { // inner loop
+//				System.out.print(b[row][col] + " "); // let us use print, not println
+//			}
+//			System.out.println(); // move to new line after each row
+//		}
+		
+		// Outer loop: iterate through each row (which itself is an array) in b
+			for (int r[] : b) {
+			    for (int c : r) {
+			        System.out.print(c + " ");  // print values in same row
+			    }
+			    System.out.println(); // new line after each row
 			}
-			System.out.println(); // move to new line after each row
-		}
-
 	}
 
 }
