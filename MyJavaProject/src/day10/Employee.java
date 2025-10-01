@@ -9,7 +9,10 @@ public class Employee {
 	
 	void displayEmployeesDetails(){
 		//Statement
-		
+		System.out.println(empId);
+		System.out.println(empName);
+		System.out.println(job);
+		System.out.println(salary);
 		
 	}
 	
