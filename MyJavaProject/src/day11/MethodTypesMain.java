@@ -26,6 +26,8 @@ public class MethodTypesMain {
 		str = str.trim();
 		System.out.println(str.length()); // No params returns value
 		System.out.println(str.substring(0, 11)); // Takes params Returns value
+		
+		33:50
 
 	}
 
