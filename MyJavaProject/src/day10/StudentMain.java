@@ -19,7 +19,7 @@ public class StudentMain {
 /*
 
 This will output something like : Student id: 0, Name:null, Grade:
-Due to the fact we did not yet create a reference object 
+Due to the fact we did not yet create a reference object an object without reference variable
 		
 		new Student();
 		
