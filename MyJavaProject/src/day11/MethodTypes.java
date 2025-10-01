@@ -25,6 +25,10 @@ public class MethodTypes {
 			System.out.println("Hi dear "+name);
 		}
 		
+		// Takes  params Return Value
+		
+		String m4(String name);
+		
 		
 		
 		
