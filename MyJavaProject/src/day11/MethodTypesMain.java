@@ -24,8 +24,8 @@ public class MethodTypesMain {
 		String str = mt.m4("Victoire", 20);
 		System.out.println(str.trim()); // trim method is type of no params and now value
 		str = str.trim();
-		System.out.println(str.length());
-		System.out.println(str.substring(0, 11));
+		System.out.println(str.length()); // No params returns value
+		System.out.println(str.substring(0, 11)); // Takes params Returns value
 
 	}
 
