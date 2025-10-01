@@ -12,7 +12,7 @@ public class StudentMain {
 		s.sid = 1001;
 		s.sname = "Victoire";
 		s.grade = 'A';
-		s.printStudentData();   
+		s.printStudentData();  
 		
 
 
