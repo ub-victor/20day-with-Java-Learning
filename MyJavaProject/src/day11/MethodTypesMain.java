@@ -19,6 +19,8 @@ public class MethodTypesMain {
 		mt.m3("Victoire");
 		
 		// Takes  params Return Value
+		
+		System.out.println(mt.m4("Smith", 20)); 
 		   
 
 	}
