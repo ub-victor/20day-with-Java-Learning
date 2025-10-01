@@ -13,9 +13,9 @@ public class MethodTypes {
 		}
 		 
 		 
-		// No params Return Value
+		// No params Return Value , the instead of using void we will give the method the return Type
 		
-		m2(){
+		String m2(){
 			return ("Welcome to java Programming");
 		}
 		
