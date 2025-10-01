@@ -16,7 +16,7 @@ public class MethodTypesMain {
 		
 		// Takes params No Return Value
 		
-		mt.m3("Victoire");
+		mt.m3("Victoire"); 
 		
 
 	}
