@@ -7,7 +7,8 @@ public class Employee {
 	String job;
 	Double salary; 
 	
-	displayEmployeesDetails(){
+	void displayEmployeesDetails(){
+		//Statement
 		
 	}
 	
