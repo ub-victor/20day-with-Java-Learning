@@ -20,7 +20,8 @@ public class MethodTypesMain {
 		
 		// Takes  params Return Value
 		
-		System.out.println(mt.m4("Smith", 20)); 
+	//	System.out.println(mt.m4("Smith", 20)); 
+		String str = mt.m4("Victoire", 20)
 		   
 
 	}
