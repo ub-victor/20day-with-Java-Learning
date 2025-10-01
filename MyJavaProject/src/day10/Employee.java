@@ -7,6 +7,10 @@ public class Employee {
 	String job;
 	Double salary; 
 	
+	displayEmployeesDetails(){
+		
+	}
+	
 	 
 
 	public static void main(String[] args) {
