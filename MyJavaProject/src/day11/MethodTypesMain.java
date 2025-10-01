@@ -10,6 +10,8 @@ public class MethodTypesMain {
 		
 		String str = mt.m2();
 		
+		System.out.println(str);
+		
 
 	}
 
