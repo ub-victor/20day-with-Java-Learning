@@ -15,6 +15,9 @@ public class MethodTypes {
 		 
 		// No params Return Value
 		
+		m2(){
+			return ("Welcome to java Programming");
+		}
 		
 		
 
