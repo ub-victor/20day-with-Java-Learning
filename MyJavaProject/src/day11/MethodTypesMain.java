@@ -7,10 +7,11 @@ public class MethodTypesMain {
 		mt.m1();
 		
 		// No Params Return value , we have to Capture the type used
-		
-		//String str = mt.m2();
-		
-		//System.out.println(str);
+		/*
+		  String str = mt.m2();
+		  
+		 System.out.println(str);
+		 */
 		System.out.println(mt.m2());
 		
 
