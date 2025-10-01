@@ -33,6 +33,8 @@ public class ScannerExample {
 		String st = sc.next();
 		System.out.println("your name is: "+ st);
 
+		sc.close();
+
 	}
 
 }
