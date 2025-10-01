@@ -2701,3 +2701,19 @@ java.lang.IllegalStateException: Disconnected before saving. https://bugs.eclips
 		at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5074)
 		at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4543)
 		... 20 more
+!SESSION 2025-10-02 00:12:32.191 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-02 00:12:51.194
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-10-02 00:12:52.139
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (274) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-02 00:13:01.056
+!MESSAGE Logback config file: /home/victoire/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml

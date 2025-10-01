@@ -11,7 +11,7 @@ public class ConditionAnd {
         System.out.print("Enter the student's mark: ");
         mark = scanner.nextInt();
 
-        if (mark > 100 || mark < 0) {
+        if (mark < 100 || mark > 0) {
             System.out.println("The entered mark is invalid (>100 or <0): " + mark);
         } else {
             System.out.println("The entered mark is valid: " + mark);
