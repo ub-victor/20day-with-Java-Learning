@@ -19,6 +19,8 @@ public class MethodTypes {
 			return ("Welcome to java Programming");
 		}
 		
+		// Takes params 
+		
 		
 
 }
