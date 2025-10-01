@@ -7,14 +7,14 @@ public class StudentMain {
 		
 		// Create object with reference variable
 		
-/*
+
 		Student s = new Student();
 		s.sid = 1001;
 		s.sname = "Victoire";
 		s.grade = 'A';
 		s.printStudentData();
 		
-*/
+
 
 /*
 
