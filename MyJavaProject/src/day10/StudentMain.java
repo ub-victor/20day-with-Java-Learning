@@ -15,6 +15,11 @@ public class StudentMain {
 		s.printStudentData();
 		
 */
+
+/*
+
+This will output something like : Student id: 0, Name:null, Grade:
+Due to the fact we did not yet create a reference object 
 		
 		new Student();
 		
@@ -23,8 +28,8 @@ public class StudentMain {
 		new Student().grade = 'B';
 		
 		new Student().printStudentData();
-		
-		
+
+*/
 		
 
 	}
