@@ -21,6 +21,11 @@ public class Employee {
 	public static void main(String[] args) {
 		
 		Employee emp1 = new Employee();// Here a storage is create in the memory
+		emp1.empId = 101 ;
+		emp1.empName = "Kevin";
+		emp1.job = "Developer";
+		emp1.salary = 52100.64 ; 
+		
 		
 
 	}
