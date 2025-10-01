@@ -5,7 +5,7 @@ public class ConditionAnd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the student's mark: "); // Prompt the user for input
+        System.out.print("Enter the student's mark: "); 
 
         // Read the integer mark entered by the user
         int mark = scanner.nextInt();
