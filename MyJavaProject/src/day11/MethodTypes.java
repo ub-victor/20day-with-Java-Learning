@@ -11,6 +11,10 @@ public class MethodTypes {
 			 System.out.println("Welcome");
 			 
 		}
+		 
+		 
+		// No params Return Value
+		
 		
 		
 
