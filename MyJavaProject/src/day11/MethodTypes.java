@@ -19,7 +19,15 @@ public class MethodTypes {
 			return ("Welcome to java Programming");
 		}
 		
-		// Takes params 
+		// Takes params No Return Value
+		
+		void m3(String name) {
+			System.out.println("Hi dear "+name);
+		}
+		
+		
+		
+		
 		
 		
 

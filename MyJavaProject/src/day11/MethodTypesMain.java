@@ -14,6 +14,10 @@ public class MethodTypesMain {
 		 */
 		System.out.println(mt.m2());
 		
+		// Takes params No Return Value
+		
+		mt.m3("Victoire");
+		
 
 	}
 
