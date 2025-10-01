@@ -20,6 +20,7 @@ public class Employee {
 
 	public static void main(String[] args) {
 		
+		Employee emp1 = new Employee();// Here a storage is create in the memory
 
 	}
 
