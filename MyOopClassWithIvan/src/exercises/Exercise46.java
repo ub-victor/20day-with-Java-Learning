@@ -10,3 +10,4 @@ public class Exercise46 {
         System.out.println("Quotient: " + (x / y));
     }
 }
+ 
