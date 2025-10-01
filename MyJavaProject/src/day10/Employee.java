@@ -26,6 +26,18 @@ public class Employee {
 		emp1.job = "Developer";
 		emp1.salary = 52100.64 ; 
 		
+		emp1.displayEmployeesDetails();
+		
+		System.out.println();
+		
+		Employee emp2 = new Employee();
+		emp2.empId = 102 ;
+		emp2.empName = "Smith";
+		emp2.job = "Manager";
+		emp2.salary = 76213.67 ; 
+		
+		emp2.displayEmployeesDetails();
+		
 		
 
 	}
