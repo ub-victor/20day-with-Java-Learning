@@ -17,7 +17,7 @@ public class Employee {
 		ename = name;
 		sal = pay;
 		
-		
+		 
 		}
 	
 	Employee (){ // this is a construction  like a method but with same name as class with  no return type any value
