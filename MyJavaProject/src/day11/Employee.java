@@ -20,6 +20,10 @@ public class Employee {
 		
 		}
 	
+	Employee (){
+		
+	}
+	
 	
 	
 }
