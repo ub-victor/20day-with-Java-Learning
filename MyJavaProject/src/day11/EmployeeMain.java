@@ -5,6 +5,8 @@ public class EmployeeMain {
 		
 		Employee e1 = new Employee();
 		
+		
+		System.out.println("Using object reference variable");
 		e1.eid = 101;
 		e1.ename = "Victo";
 		e1.sal = 345554.34;

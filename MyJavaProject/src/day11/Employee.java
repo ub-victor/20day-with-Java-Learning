@@ -11,5 +11,15 @@ public class Employee {
 		System.out.println("Employee Name: "+ ename);
 		System.out.println("Employee Salary: "+ sal);
 	}
-
+	
+	void setEmpData(int id, String name, double pay) {
+		eid = id;
+		ename = name;
+		sal = pay;
+		
+		
+		}
+	
+	
+	
 }
