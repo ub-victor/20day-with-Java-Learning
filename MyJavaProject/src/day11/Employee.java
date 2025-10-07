@@ -19,8 +19,15 @@ public class Employee {
 		
 		
 		}
+	/*
+	 *this is a construction  like a method but with same name as class with 
+	 *no return type any value 
+	 *And it is use to initialize variables
+	 * */
 	
-	Employee (int id, String name, double pay){ // this is a construction  like a method but with same name as class with  no return type any value
+	
+	
+	Employee (int id, String name, double pay){ 
 		eid = id;
 		ename = name;
 		sal = pay;
