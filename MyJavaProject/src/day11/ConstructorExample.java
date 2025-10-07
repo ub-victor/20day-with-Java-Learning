@@ -4,9 +4,15 @@ public class ConstructorExample {
 	
 	int x,y;
 	
-	ConstructorExample(){ // know as Default constructor it takes no parms
+	/*ConstructorExample(){ // know as Default constructor it takes no parms
 		x = 100;
 		y=200;
+	}
+	
+	*/
+	ConstructorExample(int i , int j){
+		i=300;
+		j=300;
 	}
 	
 	int sum(){
