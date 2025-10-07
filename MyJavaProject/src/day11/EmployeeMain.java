@@ -21,6 +21,7 @@ public class EmployeeMain {
 		//Constructor
 		System.out.println();
 		System.out.println("Using Constructure");
+		
 		Employee emp = new Employee(122, "Junior", 342.2345);
 		
 	
