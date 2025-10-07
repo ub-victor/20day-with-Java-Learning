@@ -22,6 +22,8 @@ public class ConstructorExample {
 		System.out.println("Sum of the numbers is: "+ ce.sum());
 		*/
 		
+		
+		
 
 	}
 
