@@ -16,7 +16,8 @@ public class EmployeeMain {
 		System.out.println();
 		System.out.println("Using User-defined method");
 		
-		System.out.println(e1.setEmpData(120, "Robert", 345.45)); 
+		e1.setEmpData(120, "Robert", 345.45);
+		
 	
 	}
 	
