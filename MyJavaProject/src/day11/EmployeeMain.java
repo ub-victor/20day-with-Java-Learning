@@ -8,6 +8,8 @@ public class EmployeeMain {
 		e1.eid = 101;
 		e1.ename = "Victo";
 		e1.sal = 345554.34;
+		
+		e1.displayEmpData();
 	
 	}
 	
