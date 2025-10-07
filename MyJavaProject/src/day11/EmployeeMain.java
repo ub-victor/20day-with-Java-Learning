@@ -3,7 +3,7 @@ package day11;
 public class EmployeeMain {
 	public static void main(String[] args) {
 		
-		Employee e1 = new Employee();
+		Employee e1 = new Employee(122, "Junior", 342.2345);
 		
 		
 		System.out.println("Using object reference variable");
