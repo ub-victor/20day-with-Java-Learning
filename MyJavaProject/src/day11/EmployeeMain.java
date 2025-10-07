@@ -3,7 +3,7 @@ package day11;
 public class EmployeeMain {
 	public static void main(String[] args) {
 		
-		Employee e1 = new Employee(122, "Junior", 342.2345);// the way of calling a constructor
+		Employee e1 = new Employee();// the way of calling a constructor
 		
 		
 		System.out.println("Using object reference variable");
@@ -21,6 +21,8 @@ public class EmployeeMain {
 		//Constructor
 		System.out.println();
 		System.out.println("Using Constructure");
+		Employee emp = new Employee(122, "Junior", 342.2345);
+		
 	
 	}
 	
