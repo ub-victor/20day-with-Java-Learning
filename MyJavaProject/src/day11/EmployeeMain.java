@@ -1,7 +1,7 @@
 package day11;
 
 public class EmployeeMain {
-	public static void main() {
+	public static void main(String[] args) {
 		
 		Employee e1 = new Employee();
 		
