@@ -3,7 +3,9 @@ package day11;
 public class EmployeeMain {
 	public static void main(String[] args) {
 		
-		// Employee e1 = new Employee();// commit the construtor for it to work
+		/*
+		
+		Employee e1 = new Employee();// commit the construtor for it to work
 		
 		
 		System.out.println("Using object reference variable");
@@ -18,9 +20,13 @@ public class EmployeeMain {
 		
 		e1.setEmpData(120, "Robert", 345.45);
 		e1.displayEmpData();
+		
+		*/
 		//Constructor
 		System.out.println();
 		System.out.println("Using Constructure");
+		
+		
 		
 		Employee emp = new Employee(122, "Junior", 342.2345);
 		emp.displayEmpData();
