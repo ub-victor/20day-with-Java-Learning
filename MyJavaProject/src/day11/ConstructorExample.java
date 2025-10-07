@@ -15,9 +15,12 @@ public class ConstructorExample {
 
 	public static void main(String[] args) {
 		
+		/*
+		
 		ConstructorExample ce = new ConstructorExample();
 		
 		System.out.println("Sum of the numbers is: "+ ce.sum());
+		*/
 		
 
 	}
