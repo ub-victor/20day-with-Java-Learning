@@ -8,10 +8,14 @@ public class ConstructorExample {
 		x = 100;
 		y=200;
 	}
+	
+	int sum(){
+		return (x+y);
+	}
 
 	public static void main(String[] args) {
 		
-		
+		ConstructorExample ce = new ConstructorExample();
 		
 
 	}
