@@ -18,7 +18,7 @@ public class EmployeeMain {
 		
 		e1.setEmpData(120, "Robert", 345.45);
 		e1.displayEmpData();
-		
+		//Constructor
 		System.out.println();
 		System.out.println("Using Constructure");
 	
