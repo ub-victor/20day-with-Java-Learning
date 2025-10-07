@@ -28,7 +28,7 @@ public class ConstructorExample {
 		System.out.println("Sum of the numbers is: "+ ce.sum());
 		*/
 		
-		ConstructorExample ce = new ConstructorExample(100, 200);
+		ConstructorExample ce = new ConstructorExample(300, 300);
 		
 
 	}
