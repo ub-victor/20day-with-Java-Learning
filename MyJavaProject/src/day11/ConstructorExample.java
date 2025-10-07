@@ -11,8 +11,8 @@ public class ConstructorExample {
 	
 	*/
 	ConstructorExample(int i , int j){
-		i=300;
-		j=300;
+		i=i;
+		j=j;
 	}
 	
 	int sum(){
