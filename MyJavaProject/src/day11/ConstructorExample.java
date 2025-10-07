@@ -11,8 +11,8 @@ public class ConstructorExample {
 	
 	*/
 	ConstructorExample(int i , int j){
-		i=i;
-		j=j;
+		x=i;
+		y=j;
 	}
 	
 	int sum(){
@@ -29,6 +29,7 @@ public class ConstructorExample {
 		*/
 		
 		ConstructorExample ce = new ConstructorExample(300, 300);
+		System.out.println(ce.sum());
 		
 
 	}
