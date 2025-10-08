@@ -6,6 +6,9 @@ public class CalculatorMain {
 		
 		Calculator c = new Calculator();
 		
+		
+		//These is the method modeling
+		
 		c.add(); 
 		c.add(10, 10);
 		c.add(10.10, 10.10);
