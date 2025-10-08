@@ -15,7 +15,7 @@ public class Printer {
 			System.out.println("Printing String document: "+ document);
 			
 		}// Method to print a double (for ex: price)
-	void print(int document) {
+	void print(double document) {
 		
 		System.out.println("Printing String document: "+ document);
 		
@@ -26,6 +26,8 @@ public class Printer {
 	
 	
 	public static void main(String[] args) {
+		
+		Printer p = new Printer();
 		
 
 	}
