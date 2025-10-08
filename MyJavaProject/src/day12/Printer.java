@@ -30,6 +30,8 @@ public class Printer {
 		Printer p = new Printer();
 		
 		p.print("Hello world");
+		p.print(1);
+		p.print(150);
 		
 
 	}
