@@ -10,6 +10,7 @@ public class Box {
 			height = 0;
 			
 		*/
+			length = breadth =  height = 0;
 		}
 
 }
