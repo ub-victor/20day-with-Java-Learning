@@ -6,7 +6,8 @@ public class CallByReference {
 		
 		TestMethod tm = new TestMethod();
 		
-		int origNum = 100;
+		//int origNum = 100;
+		int origNum = tm.num = 100;
 		System.out.println("Value before method call: "+ origNum);
 		
 		tm.modifyObject(tm);
