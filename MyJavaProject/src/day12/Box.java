@@ -13,7 +13,7 @@ public class Box {
 			length = breadth =  height = 0;
 		}
 		
-		Box(){
+		Box(double l, double b, double h){
 			
 		}
 
