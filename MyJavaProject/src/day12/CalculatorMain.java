@@ -6,7 +6,10 @@ public class CalculatorMain {
 		
 		Calculator c = new Calculator();
 		
-		c.add();
+		c.add(); 
+		c.add(10, 10);
+		c.add(10.10, 10.10);
+		
 
 	}
 
