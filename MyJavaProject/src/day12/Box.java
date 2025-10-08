@@ -19,8 +19,8 @@ public class Box {
 			height = h;
 		}
 		
-		Box(double l){
-			length = breadth =  height = 0;
+		Box(double len){
+			length = breadth =  height = len;
 		}
 
 }
