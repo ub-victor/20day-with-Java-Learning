@@ -5,9 +5,11 @@ public class Box {
 		double length, breadth, height;
 		
 		Box(){ /// Construction is used to initialize the class variables
-			length = 0;
+		/*	length = 0;
 			breadth=0;
 			height = 0;
+			
+		*/
 		}
 
 }
