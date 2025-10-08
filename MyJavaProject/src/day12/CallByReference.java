@@ -9,6 +9,12 @@ public class CallByReference {
 		int origNum = 100;
 		System.out.println("Value before method call: "+ origNum);
 		
+		tm.modifyObject(tm);
+		
+		System.out.println("Value after method call: "+ origNum);
+		
+		
+		
 	}
 
 }
