@@ -6,19 +6,27 @@ public class Calculator {
 	
 	void add () {
 		
+		System.out.println(a+b);
+		
 	}
 	
 	void add () {
+		
+		System.out.println(x+y);
 			
 		}
 
 
 	void add () {
 		
+		System.out.println(a+b);
+		
 	}
 
 	
 	void add () {
+		
+		System.out.println(a+b);
 		
 	}
 
