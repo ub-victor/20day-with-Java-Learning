@@ -4,6 +4,8 @@ public class Callbyvalue {
 
 	public static void main(String[] args) {
 		TestMethod tm = new TestMethod();
+		
+		
 
 	}
 
