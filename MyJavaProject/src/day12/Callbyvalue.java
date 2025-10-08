@@ -6,9 +6,11 @@ public class Callbyvalue {
 		TestMethod tm = new TestMethod();
 		
 		int num = 100;
-		System.out.println("Value before the method call: ",+ n);
+		System.out.println("Value before the method call: ");
 		
 		tm.modifyValue(num);
+		
+		System.out.println("Value after the method call: ",+ n);
 		
 		
 
