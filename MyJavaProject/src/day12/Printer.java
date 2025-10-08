@@ -9,7 +9,7 @@ public class Printer {
 	}
 	
 	
-	
+	// Method to print a Integer (for ex: document ID)
 	void print(int document) {
 			
 			System.out.println("Printing String document: "+ document);
