@@ -8,6 +8,8 @@ public class Printer {
 		
 	}
 	
+	
+	
 	void print(int document) {
 			
 			System.out.println("Printing String document: "+ document);
