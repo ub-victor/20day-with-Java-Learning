@@ -34,6 +34,12 @@ public class Calculator {
 		System.out.println(x+y);
 			
 	}
+	
+	void add (double x, int y, int v) {
+			
+			System.out.println(x+y+v);
+				
+		}
 
 
 
