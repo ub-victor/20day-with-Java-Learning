@@ -6,7 +6,7 @@ public class BoxMain {
 		
 		Box b = new Box();
 		
-		b.volume();
+		System.out.println(b.volume());
 
 	}
 
