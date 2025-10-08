@@ -22,5 +22,9 @@ public class Box {
 		Box(double len){
 			length = breadth =  height = len;
 		}
+		
+		double volume(){
+			return (length * breadth);
+		}
 
 }
