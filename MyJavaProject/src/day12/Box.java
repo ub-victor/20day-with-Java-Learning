@@ -12,5 +12,9 @@ public class Box {
 		*/
 			length = breadth =  height = 0;
 		}
+		
+		Box(){
+			
+		}
 
 }
