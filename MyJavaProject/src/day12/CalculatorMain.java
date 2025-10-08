@@ -11,6 +11,7 @@ public class CalculatorMain {
 		c.add(10.10, 10.10);
 		c.add(10, 10.11);
 		c.add(10.11, 10);
+		c.add(10.11, 10, 10);
 		
 
 	}
