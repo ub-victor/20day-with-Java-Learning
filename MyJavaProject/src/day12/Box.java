@@ -24,7 +24,7 @@ public class Box {
 		}
 		
 		double volume(){
-			return (length * breadth);
+			return (length * breadth*height);
 		}
 
 }
