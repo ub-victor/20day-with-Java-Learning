@@ -4,6 +4,8 @@ public class CallByReference {
 	
 	public static void main(String[] args) {
 		
+		TestMethod tm = new TestMethod();
+		
 		
 		
 	}
