@@ -14,14 +14,20 @@ public class Calculator {
 		
 		System.out.println(x+y);
 			
-		}
+	}
 	
 	
-void add (double x, double y) {
+	void add (double x, double y) {
 		
 		System.out.println(x+y);
 			
-		}
+	}
+	
+void add (int x, double y) {
+		
+		System.out.println(x+y);
+			
+	}
 
 
 
