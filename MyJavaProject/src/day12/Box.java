@@ -4,7 +4,7 @@ public class Box {
 
 		double length, breadth, height;
 		
-		Box(){
+		Box(){ /// Construction is used to initialize the class variables
 			length = 0;
 			breadth=0;
 			height = 0;
