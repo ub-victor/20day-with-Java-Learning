@@ -11,7 +11,10 @@ public class BoxMain {
 		
 		
 		
+		
+		
 		System.out.println(b.volume());
+		System.out.println(bo.volume());
 
 	}
 
