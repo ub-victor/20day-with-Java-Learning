@@ -8,6 +8,16 @@ public class MainMethodOverload {
 		
 	}
 	
+	
+	/*
+	int main(int x) {
+			
+			System.out.println(x);
+			
+		}
+	
+	*/
+	
 	void main(int x,int y) {
 		
 		System.out.println(x+y);
