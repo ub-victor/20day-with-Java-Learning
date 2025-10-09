@@ -19,7 +19,7 @@ public class MainMethodOverload {
 		MainMethodOverload m = new MainMethodOverload();
 		
 		m.main(10);
-		m.main(5, 6);
+		m.main(5,6);
 		
 
 	}
