@@ -20,6 +20,7 @@ public class PassParamsToMain {
  * 2. In the main you check where written Main class, you copy it 
  * 3. search for the main class then okay
  * 4. click of the Arguments
- * 
+ * 5 Provide the Program argument
+ * 6. then Click okay the run
  * 
  * */
