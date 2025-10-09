@@ -9,7 +9,7 @@ public class MainMethodOverload {
 	}
 	
 	
-	/*  the Method return type does not count
+	/*  the Method return type does not count by the parameters do
 	int main(int x) {
 			
 			System.out.println(x);
