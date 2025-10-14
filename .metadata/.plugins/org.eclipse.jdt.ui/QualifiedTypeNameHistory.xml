@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
 </qualifiedTypeNameHistroy>
