@@ -11,9 +11,9 @@ public class TheExample {
 	}
 	*/
 	
-	void setData(int x, int y) {
-		a = x;
-		b = y;
+	void setData(int a, int b) {
+		this.a = a;// "this" is used to indicate class variable
+		this.b  = b;
 	}
 	
 	void displayData() {
