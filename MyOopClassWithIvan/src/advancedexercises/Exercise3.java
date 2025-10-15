@@ -9,6 +9,10 @@ public class Exercise3 {
 		System.out.print("Enter a character: ");
 		char ch = sc.next().charAt(0);
 		
+		if ("AEIOUaeiou".indexOf(ch) != -1) {
+			
+		}
+		
 		
 		
 		
