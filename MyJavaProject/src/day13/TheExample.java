@@ -2,7 +2,7 @@ package day13;
 
 public class TheExample {
 	
-	int a,b;  // Class variables
+//	int a,b;  // Class variables
 	
 	/*
 	void setData(int x, int y) { // x and be are Local Variables
@@ -11,11 +11,13 @@ public class TheExample {
 	}
 	*/
 	
+	/*
+	
 	void setData(int a, int b) {
 		this.a = a;// "this" is used to indicate class variable
 		this.b  = b;
 	}
-	
+	*/
 	void displayData() {
 		System.out.println(a + " " + b);
 	}
