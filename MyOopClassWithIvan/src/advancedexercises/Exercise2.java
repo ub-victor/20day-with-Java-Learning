@@ -11,7 +11,7 @@ public class Exercise2 {
 		int year = sc.nextInt();
 		
 		if((year % 4 == 0 && year % 100 !=0) || year % 400 == 0) {
-			System.out.print(year + " Is a leap year.");
+			System.out.println(year + " Is a leap year.");
 		}else {
 			System.out.println(year + " Is Not a leap year.");
 		}
