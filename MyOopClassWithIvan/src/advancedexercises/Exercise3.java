@@ -10,7 +10,7 @@ public class Exercise3 {
 		char ch = sc.next().charAt(0);
 		
 		if ("AEIOUaeiou".indexOf(ch) != -1) {
-			
+			System.out.println(ch + "Is a vowel.");
 		}
 		
 		
