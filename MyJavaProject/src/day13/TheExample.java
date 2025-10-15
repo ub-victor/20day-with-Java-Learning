@@ -3,6 +3,8 @@ package day13;
 public class TheExample {
 	
 //	int a,b;  // Class variables
+	this.a =a;
+	this.b=b;
 	
 	/*
 	void setData(int x, int y) { // x and be are Local Variables
