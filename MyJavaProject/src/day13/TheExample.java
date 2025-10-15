@@ -13,7 +13,7 @@ public class TheExample {
 	}
 	*/
 	
-///*	
+/*	
 	
 	void setData(int a, int b) {
 		this.a = a;// "this" is used to indicate class variable
@@ -26,8 +26,8 @@ public class TheExample {
 
 	public static void main(String[] args) {
 		
-		TheExample t = new  TheExample();
-		t.setData(10, 10);
+		TheExample t = new  TheExample(10,20);
+//		t.setData(10, 10);
 		
 		t.displayData();
 		
