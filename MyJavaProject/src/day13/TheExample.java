@@ -13,7 +13,7 @@ public class TheExample {
 	}
 	*/
 	
-	/*
+///*	
 	
 	void setData(int a, int b) {
 		this.a = a;// "this" is used to indicate class variable
