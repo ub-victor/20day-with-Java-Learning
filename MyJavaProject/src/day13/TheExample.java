@@ -2,7 +2,7 @@ package day13;
 
 public class TheExample {
 	
-	int a,b  // Class variables
+	int a,b;  // Class variables
 	
 	void setData(int x, int y) { // x and be are Local Variables
 		a = x;
@@ -14,6 +14,11 @@ public class TheExample {
 	}
 
 	public static void main(String[] args) {
+		
+		TheExample t = new  TheExample();
+		t.setData(10, 10);
+		
+		t.displayData();
 		
 
 	}
