@@ -25,7 +25,7 @@ public class TheExample {
 		TheExample t = new  TheExample();
 		t.setData(10, 10);
 		
-		t.displayData(); 
+		t.displayData();
 		
 
 	}
