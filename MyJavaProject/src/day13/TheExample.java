@@ -4,7 +4,14 @@ public class TheExample {
 	
 	int a,b;  // Class variables
 	
+	/*
 	void setData(int x, int y) { // x and be are Local Variables
+		a = x;
+		b = y;
+	}
+	*/
+	
+	void setData(int x, int y) {
 		a = x;
 		b = y;
 	}
