@@ -32,6 +32,7 @@ public class BankApp {
         transactions.add("Account created with initial deposit: " + initialDeposit);
         System.out.println("✅ Account successfully created!\n");
     }
+    
 
 
 }
