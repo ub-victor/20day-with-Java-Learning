@@ -241,3 +241,33 @@ public class BankApp {
         } while (option != 0);
     }
 }
+
+/*
+ *Project: Stock management system, Class Stock manager
+ Simulate a simple stock management system that tracks available product , manages stock levels, handle sales and restocking and displays reports.
+ 
+ Requirement 
+ use one class only
+ use static methods only (no object).
+ use Scanner for all input
+ validate all input (eg: quantity>=0,price>=0, sufficient stock for sales)
+ The main method should call all other methods in logical order.
+ 
+ 
+ 1. AddProduct()
+ 	Ask the user to enter: product name, propduct ID, price per unit, and initial quantity(do not accept  0 in initial quantity)
+ 	Store all value in static variable or lists
+ 2. viewProduct()
+ 	Display all product details include ID, name , price, and available quantity.
+ 	Only when quantity is above 10
+ 3. updateStock()
+ 	Ask the user to enter the product ID and additional quantity to add only above 5.
+ 	Increase stock accrordingly and validate inputs.
+ 4. 
+ 
+ * */
+
+
+
+
+
