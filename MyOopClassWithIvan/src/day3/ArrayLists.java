@@ -28,7 +28,7 @@ public class ArrayLists {
 		//System.out.println(list);
 		
 		for (Integer lis: list) {
-			System.out.println(list);
+			System.out.println(lis);
 		}
 
 	}
