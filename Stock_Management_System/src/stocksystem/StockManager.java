@@ -170,9 +170,9 @@ public class StockManager {
             double discountAmount = productPrices.get(index) * discount / 100;
             productPrices.set(index, productPrices.get(index) - discountAmount);
             history.add("Discount of " + discount + "% applied to " + productNames.get(index));
-            System.out.println("✅ Discount applied! New price: " + productPrices.get(index));
+            System.out.println("Discount applied! New price: " + productPrices.get(index));
         } else {
-            System.out.println("⚠️ Discount applicable only for quantities between 10 and 20.");
+            System.out.println("Discount applicable only for quantities between 10 and 20.");
         }
         sc.nextLine();
     }
@@ -185,7 +185,7 @@ public class StockManager {
 
         int index = productIDs.indexOf(id);
         if (index == -1) {
-            System.out.println("❌ Product not found!");
+            System.out.println("Product not found!");
             return;
         }
 
@@ -198,9 +198,9 @@ public class StockManager {
             productNames.remove(index);
             productPrices.remove(index);
             productQuantities.remove(index);
-            System.out.println("✅ Product removed successfully!");
+            System.out.println("Product removed successfully!");
         } else {
-            System.out.println("❌ Operation cancelled.");
+            System.out.println("Operation cancelled.");
         }
     }
 
