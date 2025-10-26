@@ -102,7 +102,19 @@ public class BankApp {
         System.out.println("💰 New Balance: " + balance);
     }
 
-    
+    // === 7. Display Account Info ===
+    public static void displayAccountInfo() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        System.out.println("\n========== ACCOUNT INFORMATION ==========");
+        System.out.println("👤 Account Holder: " + accountHolderName);
+        System.out.println("🏦 Account Number: " + accountNumber);
+        System.out.println("💰 Current Balance: " + balance);
+        System.out.println("==========================================");
+    }
     
 
 
