@@ -20,6 +20,8 @@ public class UserEnterFood {
 			foods.add(food);
 		}
 		
+		System.out.println(foods);
+		
 		sc.close();
 
 	}
