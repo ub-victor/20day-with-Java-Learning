@@ -25,7 +25,7 @@ public class ArrayLists {
 		// to sort we can use Collections FrameWork
 		Collections.sort(list);
 		
-		//System.out.println(list); 
+		//System.out.println(list);
 		
 		for (Integer lis: list) {
 			System.out.println(lis);
