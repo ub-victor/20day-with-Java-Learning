@@ -20,7 +20,9 @@ public class ArrayLists {
 		list.add(2);
 		
 		//System.out.println(list);
-		System.out.println(list.size());
+		//System.out.println(list.size());
+		// to sort we can use Collections FrameWork
+		Collections.
 
 	}
 
