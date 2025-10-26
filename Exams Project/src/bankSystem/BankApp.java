@@ -33,7 +33,24 @@ public class BankApp {
         System.out.println("✅ Account successfully created!\n");
     }
     
-    
+    // === 2. Deposit ===
+    public static void deposit() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        System.out.print("\nEnter deposit amount: ");
+        double amount = sc.nextDouble();
+        if (amount <= 0) {
+            System.out.println("❌ Invalid amount!");
+            return;
+        }
+
+        balance += amount;
+        transactions.add("Deposited: " + amount);
+        System.out.println("✅ Successfully deposited " + amount + ". New balance: " + balance);
+    }
     
 
 
