@@ -24,6 +24,10 @@ public class ArrayLists {
 		//System.out.println(list.size());
 		// to sort we can use Collections FrameWork
 		Collections.sort(list);
+		
+		//System.out.println(list);
+		
+		
 
 	}
 
