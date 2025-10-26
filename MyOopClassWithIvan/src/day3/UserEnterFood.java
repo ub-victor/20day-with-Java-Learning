@@ -15,7 +15,7 @@ public class UserEnterFood {
 		int numOfFood = sc.nextInt();
 		
 		for(int i = 1; i<=numOfFood; i++) {
-			System.out.print("Enter food #" + i);
+			System.out.print("Enter food #" + i + ": ");
 		}
 		
 		sc.close();
