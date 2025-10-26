@@ -62,6 +62,31 @@ public class BankApp {
         System.out.println("\n💰 Current Balance: " + balance);
     }
     
+    // === 5. Transfer Funds ===
+    public static void transferFunds() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        System.out.print("\nEnter recipient account number: ");
+        sc.nextLine(); // clear buffer
+        String recipient = sc.nextLine();
+
+        System.out.print("Enter transfer amount: ");
+        double amount = sc.nextDouble();
+
+        if (amount <= 0) {
+            System.out.println("❌ Invalid amount!");
+        } else if (amount > balance) {
+            System.out.println("❌ Insufficient funds!");
+        } else {
+            balance -= amount;
+            transactions.add("Transferred " + amount + " to Account: " + recipient);
+            System.out.println("✅ Successfully transferred " + amount + " to Account " + recipient);
+        }
+    }
+    
 
 
 }
