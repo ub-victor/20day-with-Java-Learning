@@ -7,13 +7,18 @@ public class UserEnterFood {
 
 	public static void main(String[] args) {
 		
-		Scanner sr = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		ArrayList<String> foods = new ArrayList<>();
 		
 		System.out.print("Enter the # of food you would like: ");
-		int numOfFood = sr.nextInt();
+		int numOfFood = sc.nextInt();
 		
+		for(int i = 1; i<=numOfFood; i++) {
+			System.out.print("");
+		}
+		
+		sc.close();
 
 	}
 
