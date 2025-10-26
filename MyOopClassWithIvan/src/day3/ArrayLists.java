@@ -11,6 +11,10 @@ public class ArrayLists {
 		ArrayList<Integer> list = new ArrayList<>();
 
 		list.add(3);
+		list.add(1);
+		list.add(2);
+		
+		System.out.println(list);
 
 	}
 
