@@ -20,6 +20,7 @@ public class ArrayLists {
 		list.add(2);
 		
 		//System.out.println(list);
+		System.out.println(list.size());
 
 	}
 
