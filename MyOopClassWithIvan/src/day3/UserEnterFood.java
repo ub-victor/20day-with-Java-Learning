@@ -12,6 +12,7 @@ public class UserEnterFood {
 		ArrayList<String> foods = new ArrayList<>();
 		
 		System.out.print("Enter the # of food you would like: ");
+		
 
 	}
 
