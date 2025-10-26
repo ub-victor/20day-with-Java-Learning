@@ -277,14 +277,3 @@ public class StockManager {
         } while (option != 0);
     }
 }
-
-
-✅ final → prevents accidental modification during execution.
-✅ Clean code → you can change the threshold easily in one place if needed later.
-
-🏁 In summary:
-Code	Description
-static	Class-wide variable (shared by all methods).
-final	Cannot be changed after initialization (constant).
-int	Integer type.
-LOW_STOCK_THRESHOLD = 5	Defines a constant warning limit of 5 units for low stock.
