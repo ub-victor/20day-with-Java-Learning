@@ -239,7 +239,7 @@ public class StockManager {
         int option;
 
         System.out.println("=========================================");
-        System.out.println("📦 WELCOME TO STOCK MANAGEMENT SYSTEM 📦");
+        System.out.println("WELCOME TO STOCK MANAGEMENT SYSTEM");
         System.out.println("=========================================");
 
         do {
@@ -270,8 +270,8 @@ public class StockManager {
                 case 8 -> removeProduct();
                 case 9 -> stockHistory();
                 case 10 -> generateReport();
-                case 0 -> System.out.println("👋 Exiting system. Goodbye!");
-                default -> System.out.println("❌ Invalid option! Try again.");
+                case 0 -> System.out.println("Exiting system. Goodbye!");
+                default -> System.out.println("Invalid option! Try again.");
             }
 
         } while (option != 0);
@@ -279,9 +279,6 @@ public class StockManager {
 }
 
 
-🧠 Why Use static final Here?
-
-✅ static → accessible by all static methods (no need to pass it around).
 ✅ final → prevents accidental modification during execution.
 ✅ Clean code → you can change the threshold easily in one place if needed later.
 
