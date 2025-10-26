@@ -52,6 +52,16 @@ public class BankApp {
         System.out.println("✅ Successfully deposited " + amount + ". New balance: " + balance);
     }
     
+    // === 4. Check Balance ===
+    public static void checkBalance() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        System.out.println("\n💰 Current Balance: " + balance);
+    }
+    
 
 
 }
