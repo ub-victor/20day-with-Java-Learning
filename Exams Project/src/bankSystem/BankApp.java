@@ -116,6 +116,42 @@ public class BankApp {
         System.out.println("==========================================");
     }
     
+ // === 8. Apply Monthly Fee ===
+    public static void applyFee() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        double fee = 500;
+        if (balance >= fee) {
+            balance -= fee;
+            transactions.add("Monthly fee applied: -" + fee);
+            System.out.println("💸 A service fee of " + fee + " has been deducted.");
+        } else {
+            System.out.println("⚠️ Not enough funds to deduct service fee.");
+        }
+        System.out.println("Updated Balance: " + balance);
+    }
+
+    // === 9. Transaction History ===
+    public static void transactionHistory() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        System.out.println("\n========== TRANSACTION HISTORY ==========");
+        if (transactions.isEmpty()) {
+            System.out.println("No transactions recorded.");
+        } else {
+            for (String t : transactions) {
+                System.out.println("- " + t);
+            }
+        }
+        System.out.println("=========================================");
+    }
+    
 
 
 }
