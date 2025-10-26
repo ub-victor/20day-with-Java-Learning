@@ -8,8 +8,9 @@ public class ArrayLists {
 		
 		// ArrayList = A resizeable array that stores objects (autoboxing).
 		
-		ArrayList<Interger> list = new ArrayList<>();
+		ArrayList<Integer> list = new ArrayList<>();
 
+		list.add(3);
 
 	}
 
