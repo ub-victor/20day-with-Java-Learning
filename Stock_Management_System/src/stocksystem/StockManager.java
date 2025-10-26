@@ -26,7 +26,7 @@ public class StockManager {
         String name = sc.nextLine();
 
         System.out.print("Enter Price per Unit: ");
-        double price = sc.nextDouble();
+        double price = sc.nextDouble(); 
         while (price <= 0) {
             System.out.print("Invalid price! Enter again (>0): ");
             price = sc.nextDouble();
