@@ -21,7 +21,7 @@ public class UserEnterFood {
 			foods.add(food);
 		}
 		
-		System.out.println(foods);
+		System.out.println("Your order will have: "+ foods);
 		
 		sc.close();
 
