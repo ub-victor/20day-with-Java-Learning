@@ -1,17 +1,18 @@
-package bankSystem;
+package bankapp;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class BankApp {
-	// === Static Variables ===
+public class Bank {
+    // === Static Variables ===
     static Scanner sc = new Scanner(System.in);
     static String accountHolderName;
     static String accountNumber;
     static double balance = 0.0;
     static ArrayList<String> transactions = new ArrayList<>();
     static boolean accountActive = false;
-	
-    //=== 1. Create Account ===
+
+    // === 1. Create Account ===
     public static void createAccount() {
         System.out.println("\n========== CREATE ACCOUNT ==========");
         System.out.print("Enter Account Holder Name: ");
@@ -32,7 +33,7 @@ public class BankApp {
         transactions.add("Account created with initial deposit: " + initialDeposit);
         System.out.println("✅ Account successfully created!\n");
     }
-    
+
     // === 2. Deposit ===
     public static void deposit() {
         if (!accountActive) {
@@ -51,7 +52,28 @@ public class BankApp {
         transactions.add("Deposited: " + amount);
         System.out.println("✅ Successfully deposited " + amount + ". New balance: " + balance);
     }
-    
+
+    // === 3. Withdraw ===
+    public static void withdraw() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        System.out.print("\nEnter withdrawal amount: ");
+        double amount = sc.nextDouble();
+
+        if (amount <= 0) {
+            System.out.println("❌ Invalid amount!");
+        } else if (amount > balance) {
+            System.out.println("❌ Insufficient funds!");
+        } else {
+            balance -= amount;
+            transactions.add("Withdrawn: " + amount);
+            System.out.println("✅ Withdrawal successful! Remaining balance: " + balance);
+        }
+    }
+
     // === 4. Check Balance ===
     public static void checkBalance() {
         if (!accountActive) {
@@ -61,7 +83,7 @@ public class BankApp {
 
         System.out.println("\n💰 Current Balance: " + balance);
     }
-    
+
     // === 5. Transfer Funds ===
     public static void transferFunds() {
         if (!accountActive) {
@@ -86,7 +108,7 @@ public class BankApp {
             System.out.println("✅ Successfully transferred " + amount + " to Account " + recipient);
         }
     }
-    
+
     // === 6. Calculate Interest ===
     public static void calculateInterest() {
         if (!accountActive) {
@@ -115,8 +137,8 @@ public class BankApp {
         System.out.println("💰 Current Balance: " + balance);
         System.out.println("==========================================");
     }
-    
- // === 8. Apply Monthly Fee ===
+
+    // === 8. Apply Monthly Fee ===
     public static void applyFee() {
         if (!accountActive) {
             System.out.println("❌ Please create an account first.");
@@ -151,7 +173,6 @@ public class BankApp {
         }
         System.out.println("=========================================");
     }
-    
 
     // === 10. Close Account ===
     public static void closeAccount() {
@@ -177,8 +198,8 @@ public class BankApp {
             System.out.println("Account remains active.");
         }
     }
-    
- // === MAIN METHOD ===
+
+    // === MAIN METHOD ===
     public static void main(String[] args) {
         int option;
 
