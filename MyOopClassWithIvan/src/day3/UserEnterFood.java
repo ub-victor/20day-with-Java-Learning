@@ -13,6 +13,7 @@ public class UserEnterFood {
 		
 		System.out.print("Enter the # of food you would like: ");
 		int numOfFood = sr.nextInt();
+		
 
 	}
 
