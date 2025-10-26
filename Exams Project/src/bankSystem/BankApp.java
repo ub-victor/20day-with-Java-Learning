@@ -152,7 +152,31 @@ public class BankApp {
         System.out.println("=========================================");
     }
     
-    
+
+    // === 10. Close Account ===
+    public static void closeAccount() {
+        if (!accountActive) {
+            System.out.println("❌ No active account found.");
+            return;
+        }
+
+        System.out.print("\nAre you sure you want to close your account? (yes/no): ");
+        sc.nextLine(); // clear input buffer
+        String choice = sc.nextLine();
+
+        if (choice.equalsIgnoreCase("yes")) {
+            System.out.println("\n⚠️ Final Balance: " + balance);
+            System.out.println("✅ Account closed successfully. Thank you for banking with us!");
+            // Reset data
+            accountActive = false;
+            balance = 0;
+            transactions.clear();
+            accountHolderName = "";
+            accountNumber = "";
+        } else {
+            System.out.println("Account remains active.");
+        }
+    }
 
 
 }
