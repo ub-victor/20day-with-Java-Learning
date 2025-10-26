@@ -87,7 +87,21 @@ public class BankApp {
         }
     }
     
-    
+    // === 6. Calculate Interest ===
+    public static void calculateInterest() {
+        if (!accountActive) {
+            System.out.println("❌ Please create an account first.");
+            return;
+        }
+
+        double rate = 5.0; // 5% annual interest
+        double interest = balance * rate / 100;
+        balance += interest;
+        transactions.add("Interest added: " + interest);
+        System.out.println("\n✅ Interest of " + interest + " added at " + rate + "% rate.");
+        System.out.println("💰 New Balance: " + balance);
+    }
+
     
 
 
