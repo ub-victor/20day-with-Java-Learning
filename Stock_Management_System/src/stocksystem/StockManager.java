@@ -159,7 +159,7 @@ public class StockManager {
 
         int index = productIDs.indexOf(id);
         if (index == -1) {
-            System.out.println("❌ Product not found!");
+            System.out.println("Product not found!");
             return;
         }
 
