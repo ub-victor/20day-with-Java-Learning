@@ -9,6 +9,8 @@ public class ArrayLists {
 		// ArrayList = A resizeable array that stores objects (autoboxing).
 		// Array set,add ,remove, get,size are the buit-in method for ArrayList.
 		
+		// lists.remove(1);
+		// list.set(0, "4")
 		
 		
 		ArrayList<Integer> list = new ArrayList<>();
@@ -17,7 +19,7 @@ public class ArrayLists {
 		list.add(1);
 		list.add(2);
 		
-		System.out.println(list);
+		//System.out.println(list);
 
 	}
 
