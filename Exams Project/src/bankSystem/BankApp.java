@@ -178,7 +178,45 @@ public class BankApp {
         }
     }
     
-    
+ // === MAIN METHOD ===
+    public static void main(String[] args) {
+        int option;
 
+        System.out.println("=========================================");
+        System.out.println("🏦 WELCOME TO SIMPLE BANK MANAGEMENT SYSTEM 🏦");
+        System.out.println("=========================================");
 
+        do {
+            System.out.println("\n--------- MAIN MENU ---------");
+            System.out.println("1. Create Account");
+            System.out.println("2. Deposit");
+            System.out.println("3. Withdraw");
+            System.out.println("4. Check Balance");
+            System.out.println("5. Transfer Funds");
+            System.out.println("6. Calculate Interest");
+            System.out.println("7. Display Account Info");
+            System.out.println("8. Apply Monthly Fee");
+            System.out.println("9. Transaction History");
+            System.out.println("10. Close Account");
+            System.out.println("0. Exit");
+            System.out.print("Select an option: ");
+            option = sc.nextInt();
+
+            switch (option) {
+                case 1 -> createAccount();
+                case 2 -> deposit();
+                case 3 -> withdraw();
+                case 4 -> checkBalance();
+                case 5 -> transferFunds();
+                case 6 -> calculateInterest();
+                case 7 -> displayAccountInfo();
+                case 8 -> applyFee();
+                case 9 -> transactionHistory();
+                case 10 -> closeAccount();
+                case 0 -> System.out.println("👋 Thank you for using Simple Bank System!");
+                default -> System.out.println("❌ Invalid choice. Please try again.");
+            }
+
+        } while (option != 0);
+    }
 }
