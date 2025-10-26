@@ -8,6 +8,7 @@ public class BankApp {
 	static String accountHolderName;
 	static String accountNumber;
 	static double balance = 0.0;
+	static ArrayList<String> transactions = new ArrayList<>();
 	
 
 }
