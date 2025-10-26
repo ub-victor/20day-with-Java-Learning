@@ -7,6 +7,9 @@ public class ArrayLists {
 		
 		
 		// ArrayList = A resizeable array that stores objects (autoboxing).
+		// Array set,add ,remove, get,size are the buit-in method for ArrayList.
+		
+		
 		
 		ArrayList<Integer> list = new ArrayList<>();
 
