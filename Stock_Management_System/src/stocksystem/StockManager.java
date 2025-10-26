@@ -45,7 +45,7 @@ public class StockManager {
         productQuantities.add(qty);
         history.add("Added product: " + name + " (ID: " + id + "), Qty: " + qty);
 
-        System.out.println("✅ Product added successfully!");
+        System.out.println("Product added successfully!");
         sc.nextLine(); // clear buffer
     }
 
@@ -77,18 +77,18 @@ public class StockManager {
 
         int index = productIDs.indexOf(id);
         if (index == -1) {
-            System.out.println("❌ Product not found!");
+            System.out.println("Product not found!");
             return;
         }
 
         System.out.print("Enter additional quantity to add (minimum 5): ");
         int addQty = sc.nextInt();
         if (addQty < 5) {
-            System.out.println("❌ Quantity must be at least 5.");
+            System.out.println("Quantity must be at least 5.");
         } else {
             productQuantities.set(index, productQuantities.get(index) + addQty);
             history.add("Updated stock for " + productNames.get(index) + " (+" + addQty + ")");
-            System.out.println("✅ Stock updated successfully!");
+            System.out.println("Stock updated successfully!");
         }
         sc.nextLine();
     }
@@ -101,23 +101,23 @@ public class StockManager {
 
         int index = productIDs.indexOf(id);
         if (index == -1) {
-            System.out.println("❌ Product not found!");
+            System.out.println("Product not found!");
             return;
         }
 
         System.out.print("Enter quantity to sell (minimum 10): ");
         int sellQty = sc.nextInt();
         if (sellQty < 10) {
-            System.out.println("❌ Quantity must be at least 10.");
+            System.out.println(" Quantity must be at least 10.");
         } else if (sellQty > productQuantities.get(index)) {
-            System.out.println("❌ Insufficient stock available!");
+            System.out.println(" Insufficient stock available!");
         } else {
             double saleAmount = sellQty * productPrices.get(index);
             totalSales += saleAmount;
             productQuantities.set(index, productQuantities.get(index) - sellQty);
             history.add("Sold " + sellQty + " of " + productNames.get(index) +
                     " | Sale: " + saleAmount);
-            System.out.println("✅ Sale completed! Amount: " + saleAmount);
+            System.out.println("Sale completed! Amount: " + saleAmount);
         }
         sc.nextLine();
     }
@@ -130,14 +130,14 @@ public class StockManager {
 
         int index = productIDs.indexOf(id);
         if (index == -1) {
-            System.out.println("❌ Product not found!");
+            System.out.println("Product not found!");
             return;
         }
 
         int qty = productQuantities.get(index);
         System.out.println("Current stock for " + productNames.get(index) + ": " + qty);
         if (qty < LOW_STOCK_THRESHOLD) {
-            System.out.println("⚠️ WARNING: Low stock level!");
+            System.out.println("WARNING: Low stock level!");
         }
     }
 
@@ -148,7 +148,7 @@ public class StockManager {
             totalValue += productQuantities.get(i) * productPrices.get(i);
         }
 
-        System.out.println("\n💰 Total Stock Value: " + totalValue);
+        System.out.println("\nTotal Stock Value: " + totalValue);
     }
 
     // === 7. Apply Discount ===
@@ -277,3 +277,17 @@ public class StockManager {
         } while (option != 0);
     }
 }
+
+
+🧠 Why Use static final Here?
+
+✅ static → accessible by all static methods (no need to pass it around).
+✅ final → prevents accidental modification during execution.
+✅ Clean code → you can change the threshold easily in one place if needed later.
+
+🏁 In summary:
+Code	Description
+static	Class-wide variable (shared by all methods).
+final	Cannot be changed after initialization (constant).
+int	Integer type.
+LOW_STOCK_THRESHOLD = 5	Defines a constant warning limit of 5 units for low stock.
