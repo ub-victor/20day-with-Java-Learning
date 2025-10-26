@@ -1,5 +1,6 @@
 package day3;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayLists {
 
@@ -22,7 +23,7 @@ public class ArrayLists {
 		//System.out.println(list);
 		//System.out.println(list.size());
 		// to sort we can use Collections FrameWork
-		Collections.
+		Collections.sort(list);
 
 	}
 
