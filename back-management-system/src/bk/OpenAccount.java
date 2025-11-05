@@ -27,6 +27,6 @@ public class OpenAccount {
 		this.phoneNumber = phoneNumber;
 		this.email = email;
 		this.initialBalance = initialBalance;
-	}
+	} /
 
 }
