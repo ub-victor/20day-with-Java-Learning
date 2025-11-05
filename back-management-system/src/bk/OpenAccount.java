@@ -7,7 +7,7 @@ public class OpenAccount {
 	String address;
 	String phoneNumber;
 	String email;
-	String initialBalance;
+	double initialBalance;
 	
 
 	public void DisplayAccountDetails() {

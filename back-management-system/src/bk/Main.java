@@ -11,7 +11,7 @@ public class Main {
 		account.address = "123 Main Sgeem, Gikondo, Kigali";
 		account.phoneNumber = "555-1234";
 		account.email = "victoireushindi371@gmail.com";
-		account.initialBalance = "1000.00";
+		account.initialBalance = 1000.00;
 		account.DisplayAccountDetails();
 
 	}
