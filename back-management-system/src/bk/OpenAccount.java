@@ -10,14 +10,13 @@ public class OpenAccount {
 	String initialBalance;
 	
 
-	public void  {
-		
-		System.out.println("The information are as follow:");
-		
-		
-
+	public void DisplayAccountDetails() {
+		System.out.println("Account Number: " + accountNumber);
+		System.out.println("Account Holder Name: " + accountHolderName);
+		System.out.println("Address: " + address);
+		System.out.println("Phone Number: " + phoneNumber);
+		System.out.println("Email: " + email);
+		System.out.println("Initial Balance: $" + initialBalance);
 	}
-	
-	pu
 
 }
