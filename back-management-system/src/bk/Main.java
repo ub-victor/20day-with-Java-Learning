@@ -1,4 +1,5 @@
 package bk;
+import java.util.Scanner;
 
 public class Main {
 
@@ -6,12 +7,27 @@ public class Main {
 
 		OpenAccount account = new OpenAccount();
 
-		account.accountNumber = 123456;
-		account.accountHolderName = "Victoire Ushindi";
-		account.address = "123 Main Sgeem, Gikondo, Kigali";
-		account.phoneNumber = "555-1234";
-		account.email = "victoireushindi371@gmail.com";
-		account.initialBalance = 1000.00;
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter Account Number: ");
+		account.setAccountNumber(sc.nextInt());
+		sc.nextLine(); // Consume newline
+
+		System.out.print("Enter Account Holder Name: ");
+		account.setAccountHolderName(sc.nextLine());
+
+		System.out.print("Enter Address: ");
+		account.setAddress(sc.nextLine());
+
+		System.out.print("Enter Phone Number: ");
+		account.setPhoneNumber(sc.nextLine());
+
+		System.out.print("Enter Email: ");
+		account.setEmail(sc.nextLine());
+
+		System.out.print("Enter Initial Balance: ");
+		account.setInitialBalance(sc.nextDouble());
+
 		account.DisplayAccountDetails();
 
 	}
