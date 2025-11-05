@@ -32,4 +32,29 @@ public class OpenAccount {
 	public OpenAccount() {
 	} 
 
+	// Add simple setters so Main.java can call methods like account.accountNumber(...)
+	public void accountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public void accountHolderName(String accountHolderName) {
+		this.accountHolderName = accountHolderName;
+	}
+
+	public void address(String address) {
+		this.address = address;
+	}
+
+	public void phoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public void email(String email) {
+		this.email = email;
+	}
+
+	public void initialBalance(double initialBalance) {
+		this.initialBalance = initialBalance;
+	}
+
 }

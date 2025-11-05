@@ -10,23 +10,23 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter Account Number: ");
-		account.setAccountNumber(sc.nextInt());
+		account.accountNumber(sc.nextInt());
 		sc.nextLine(); // Consume newline
 
 		System.out.print("Enter Account Holder Name: ");
-		account.setAccountHolderName(sc.nextLine());
+		account.accountHolderName(sc.nextLine());
 
 		System.out.print("Enter Address: ");
-		account.setAddress(sc.nextLine());
+		account.address(sc.nextLine());
 
 		System.out.print("Enter Phone Number: ");
-		account.setPhoneNumber(sc.nextLine());
+		account.phoneNumber(sc.nextLine());
 
 		System.out.print("Enter Email: ");
-		account.setEmail(sc.nextLine());
+		account.email(sc.nextLine());
 
 		System.out.print("Enter Initial Balance: ");
-		account.setInitialBalance(sc.nextDouble());
+		account.initialBalance(sc.nextDouble());
 
 		account.DisplayAccountDetails();
 
