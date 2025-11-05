@@ -20,6 +20,18 @@ public class OpenAccount {
 	}
 
 
+
+
+
+
+
+
+
+
+
+
+	
+
 	public OpenAccount(int accountNumber, String accountHolderName, String address, String phoneNumber, String email,
 			double initialBalance) {
 		this.accountNumber = accountNumber;
