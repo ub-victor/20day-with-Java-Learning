@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Stock_Management_System</name>
+	<name>back-management-system</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1762364243163</id>
+			<id>1762364243181</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
