@@ -30,6 +30,11 @@ public class Main {
 
 		account.DisplayAccountDetails();
 
+
+		Loan loan = new Loan();
+		loan.setLoanId(1001);
+		System.out.println("Loan ID: " + loan.getLoanId());
+
 	}
 
 }
