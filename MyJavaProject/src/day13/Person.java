@@ -13,7 +13,9 @@ public class Person {
 	// We can set them using  methods for each class
 	
 	void setName(String name) {
+		if(age > 0) {
 		this.name = name;
+		}
 	}
 	
 	// the get the name then we do this
@@ -26,7 +28,7 @@ public class Person {
 		this.age = age;
 	}
 	
-	int getAge() {
+	int getAge()  {
 		return age; 
 	}
 	
