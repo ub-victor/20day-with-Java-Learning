@@ -15,7 +15,7 @@ public class Person {
 	void setName(String name) {
 		
 		if(age > 0) {
-		this.name = name;
+			this.name = name;
 		}else {
 			System.out.println("Age invalid");
 		}
