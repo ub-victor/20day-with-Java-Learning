@@ -33,7 +33,7 @@ public class Main {
 
 		Loan loan = new Loan();
 		loan.setLoanId(1001);
-		System.out.println("Loan ID: " + loan.getLoanId());
+		System.out.println("Loan ID: " + loan.getLoanId()); 
 
 	}
 
