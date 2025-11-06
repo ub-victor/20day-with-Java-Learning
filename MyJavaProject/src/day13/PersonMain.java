@@ -15,8 +15,12 @@ public class PersonMain {
 		
 		Person p1 = new Person();
 		
+		p1.setName("Placide");
+		p1.setAge(-10);
+		
 		
 		p.displayPersonDetails();
+		p1.displayPersonDetails();
 
 	}
 
