@@ -35,6 +35,8 @@ public class PersonMain {
 		System.out.println("Person 2 details: ");
 		System.out.println("Name: "+ p1.getName());
 		System.out.println("Age: " +p1.getAge());
+		
+		//51:04
 
 	}
 
