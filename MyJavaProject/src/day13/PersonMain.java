@@ -19,8 +19,12 @@ public class PersonMain {
 		p1.setAge(-10);
 		
 		
-		p.displayPersonDetails();
-		p1.displayPersonDetails();
+//		p.displayPersonDetails();
+//		p1.displayPersonDetails();
+		// if you what specific info
+		
+		System.out.println(p.getAge());
+		System.out.println(p1.getAge());
 
 	}
 
