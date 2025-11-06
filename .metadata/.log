@@ -3070,3 +3070,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY ch.qos.logback.classic 1 0 2025-11-05 20:01:44.799
 !MESSAGE Logback config file: /home/victoire/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-11-06 10:55:16.682
+!MESSAGE The workspace will exit with unsaved changes in this session.
