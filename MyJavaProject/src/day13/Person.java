@@ -13,6 +13,7 @@ public class Person {
 	// We can set them using  methods for each class
 	
 	void setName(String name) {
+		
 		if(age > 0) {
 		this.name = name;
 		}else {
