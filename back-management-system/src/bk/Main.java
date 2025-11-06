@@ -35,6 +35,6 @@ public class Main {
 		loan.setLoanId(1001);
 		System.out.println("Loan ID: " + loan.getLoanId()); 
 
-	} 
+	}
 
 }
