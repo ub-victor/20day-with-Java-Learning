@@ -11,7 +11,7 @@ public class Person {
 	}
 	
 	void displayPersonDetails() {
-		System.out.println("Person details: "+ name + " " + age);
+		System.out.println("Person details : "+ name + " is " + age + " years old");
 	}
 
 }
