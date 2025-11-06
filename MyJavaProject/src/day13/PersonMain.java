@@ -27,8 +27,14 @@ public class PersonMain {
 		//System.out.println(p1.getAge());
 		
 		System.out.println("Person 1 details: ");
-		System.out.println(p.getName());
-		System.out.println(p1.getAge());
+		System.out.println("Name: "+ p.getName());
+		System.out.println("Age: " +p.getAge());
+		
+		System.out.println();
+		
+		System.out.println("Person 2 details: ");
+		System.out.println("Name: "+ p1.getName());
+		System.out.println("Age: " +p1.getAge());
 
 	}
 
