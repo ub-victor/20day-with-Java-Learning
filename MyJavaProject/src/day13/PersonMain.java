@@ -15,8 +15,8 @@ public class PersonMain {
 		
 		Person p1 = new Person();
 		
-//		p1.setName("Placide");
-//		p1.setAge(-10);
+		p1.setName("Placide");
+		p1.setAge(-10);
 		
 		
 //		p.displayPersonDetails();
@@ -25,6 +25,10 @@ public class PersonMain {
 		
 		//System.out.println(p.getAge());
 		//System.out.println(p1.getAge());
+		
+		System.out.println("Person 1 details: ");
+		System.out.println(p.getName());
+		System.out.println(p1);
 
 	}
 
