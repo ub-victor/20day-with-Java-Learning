@@ -15,16 +15,16 @@ public class PersonMain {
 		
 		Person p1 = new Person();
 		
-		p1.setName("Placide");
-		p1.setAge(-10);
+//		p1.setName("Placide");
+//		p1.setAge(-10);
 		
 		
 //		p.displayPersonDetails();
 //		p1.displayPersonDetails();
 		// if you what specific info
 		
-		System.out.println(p.getAge());
-		System.out.println(p1.getAge());
+		//System.out.println(p.getAge());
+		//System.out.println(p1.getAge());
 
 	}
 
