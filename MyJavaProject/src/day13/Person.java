@@ -9,6 +9,8 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
+	// So as the variable are private how to set they data?
+	// We can set them using  methods 
 	
 	void displayPersonDetails() {
 		System.out.println("Person details : "+ name + " is " + age + " years old");
