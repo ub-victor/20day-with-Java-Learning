@@ -12,7 +12,15 @@ public class Person {
 	// So as the variable are private how to set they data?
 	// We can set them using  methods for each class
 	
+	void setName(String name) {
+		this.name = name;
+	}
 	
+	// the get the name then we do this
+	
+	String getName() {
+		return name;
+	}
 	
 
 	
