@@ -5,12 +5,16 @@ public class Person {
 	private String name;
 	private int age;
 	
-	void setData(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
+//	void setData(String name, int age) {
+//		this.name = name;
+//		this.age = age;
+//	}
 	// So as the variable are private how to set they data?
-	// We can set them using  methods 
+	// We can set them using  methods for each class
+	
+	
+	
+
 	
 	void displayPersonDetails() {
 		System.out.println("Person details : "+ name + " is " + age + " years old");
