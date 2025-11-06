@@ -12,6 +12,7 @@ public class PersonMain {
 		// to set the name or use the other class variable here we will do this
 		
 		
+		
 		p.displayPersonDetails();
 
 	}
