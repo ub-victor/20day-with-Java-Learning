@@ -23,7 +23,11 @@ public class Person {
 	}
 	
 	void setAge(int age) {
-		this.age = age;
+		if(age > 0) {
+			this.age = age;
+		}else {
+			System.out.println("Age invalid");
+		}
 	}
 	
 	int getAge()  {
