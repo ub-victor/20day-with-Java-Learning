@@ -10,7 +10,8 @@ public class PersonMain {
 //		p.age = 20;
 		
 		// to set the name or use the other class variable here we will do this
-		p.setName("Victoire");p.setAge(20);
+		p.setName("Victoire");
+		p.setAge(20);
 		
 		
 		p.displayPersonDetails();
