@@ -28,7 +28,7 @@ public class BankAccount {
 
 	public static void main(String[] args) {
 		
-		BankAccount account1 = new BankAccount("John Doe", totalAccounts);
+		BankAccount account1 = new BankAccount("John Doe", totalAccounts,  500.00);
 		
 		
 		
