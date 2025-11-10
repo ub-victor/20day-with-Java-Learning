@@ -22,7 +22,7 @@ public class BankAccount {
 		balance = initialBalance;
 	}
 	
-    public static	int getTotalAccount() {
+     public static	int getTotalAccount() {
 		return totalAccounts;
 	}
 	
@@ -45,7 +45,7 @@ public class BankAccount {
 		account3.displayAccountDetails();
 		
 		
-		// System.out.println("Total account created: "+ BankAccount.getTotalAccount() ); //When use public static you can access the method directly 
+	    //System.out.println("Total account created: "+ BankAccount.getTotalAccount() ); //When use public static you can access the method directly 
 		System.out.println("Total account created: "+ getTotalAccount() );
 		
 		

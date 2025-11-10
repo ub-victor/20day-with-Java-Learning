@@ -41,6 +41,7 @@ public class StaticExample {
 		
 		StaticExample s = new StaticExample();
 		s.m1();
+		System.out.println(s.b);
 		
 		s.m3();
 		
