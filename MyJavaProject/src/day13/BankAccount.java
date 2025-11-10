@@ -40,6 +40,8 @@ public class BankAccount {
 		BankAccount account2 = new BankAccount("Jane Doe", 500.00);
 		BankAccount account3 = new BankAccount("James Doe", 500.00);
 		
+		account1
+		
 		
 		
 
