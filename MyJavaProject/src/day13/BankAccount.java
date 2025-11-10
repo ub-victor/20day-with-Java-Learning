@@ -12,7 +12,9 @@ public class BankAccount {
 		return 1000 + totalAccounts;
 	}
 	
-	
+	private int accountNum;
+	private String accholderName;
+	private double accountNum;
 
 	public static void main(String[] args) {
 		
