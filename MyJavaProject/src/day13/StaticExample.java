@@ -14,7 +14,7 @@ public class StaticExample {
 	 * */
 	
 	static int a= 10;
-	static int b = 20;
+	int b = 20;
 	
 	void m1(){
 		System.out.println("We are in m1 static method");
@@ -24,8 +24,9 @@ public class StaticExample {
 		System.out.println("We are in m2 not-static method");
 	}
 	
-	static void m2(){
-		System.out.println("We are in m2 not-static method");
+	static void m3(){
+		System.out.println(a);
+		
 	}
 	
 	public static void main(String[] args) {
