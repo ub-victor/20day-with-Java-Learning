@@ -20,7 +20,7 @@ public class StaticExample {
 		System.out.println("We are in m1 static method");
 	}
 	
-	void m2(){
+	static void m2(){
 		System.out.println("We are in m2 not-static method");
 	}
 	
@@ -28,8 +28,13 @@ public class StaticExample {
 		
 		System.out.println(a);
 		System.out.println(b);
-		m1();
+		m2();
+		// m1();// Cannot access m() sd it is not-static
 		
+		StaticExample s = new StaticExample();
+		s.m1();
+		
+ 		
 	}
 
 }
