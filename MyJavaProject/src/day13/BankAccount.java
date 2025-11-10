@@ -45,7 +45,7 @@ public class BankAccount {
 		account3.displayAccountDetails();
 		
 		
-		System.out.println("Total account created: "+ getTotalAccounts());
+		System.out.println("Total account created: "+ getTotalAccount() );
 		
 		
 		
