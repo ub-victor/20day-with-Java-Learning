@@ -24,11 +24,13 @@ public class StaticExample {
 		System.out.println("We are in m2 not-static method");
 	}
 	
+	
+	
 	public static void main(String[] args) {
 		
 		System.out.println(a);
 		System.out.println(b);
-		m2();
+		m2();  
 		// m1();// Cannot access m() sd it is not-static
 		
 		StaticExample s = new StaticExample();
