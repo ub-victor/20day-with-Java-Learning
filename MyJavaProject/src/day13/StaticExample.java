@@ -28,6 +28,7 @@ public class StaticExample {
 		
 		System.out.println(a);
 		System.out.println(b);
+		m1();
 		
 	}
 
