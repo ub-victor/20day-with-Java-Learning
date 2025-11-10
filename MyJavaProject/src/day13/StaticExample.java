@@ -24,7 +24,7 @@ public class StaticExample {
 		System.out.println("We are in m2 not-static method");
 	}
 	
-	void m3(){
+	void m3(){ // it does not care about the protection
 		System.out.println(a);
 		System.out.println(b);
 		m1();
@@ -41,6 +41,8 @@ public class StaticExample {
 		
 		StaticExample s = new StaticExample();
 		s.m1();
+		
+		s.m3();
 		
  		
 	}
