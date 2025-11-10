@@ -2,6 +2,15 @@ package day13;
 
 public class StaticExample {
 	
+	/*
+	 static int a = 10; declares an integer variable a with a value of \(10\)
+	 that has a static storage duration, meaning its value persists throughout
+	 the program's execution, and its scope depends on where it is declared.
+	 If declared inside a function, a retains its value across function calls and is only 
+	 accessible within that function. If declared outside of any function, it becomes
+	 a file-scope static variable, accessible only to the functions within that specific file. 
+	 * */
+	
 	static int a= 10;
 	static int b = 20;
 	
