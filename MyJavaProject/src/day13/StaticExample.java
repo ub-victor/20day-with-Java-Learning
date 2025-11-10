@@ -6,11 +6,11 @@ public class StaticExample {
 	int b = 20;
 	
 	void m1(){
-		System.out.println("We are in m1 method");
+		System.out.println("We are in m1 static method");
 	}
 	
 	void m2(){
-		System.out.println("We are in m1 method");
+		System.out.println("We are in m2 not-static method");
 	}
 
 }
