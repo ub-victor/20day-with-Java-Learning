@@ -22,7 +22,7 @@ public class BankAccount {
 		balance = initialBalance;
 	}
 	
-	int getTotalAccount() {
+    public static	int getTotalAccount() {
 		return totalAccounts;
 	}
 	
@@ -43,6 +43,9 @@ public class BankAccount {
 		account1.displayAccountDetails();
 		account2.displayAccountDetails();
 		account3.displayAccountDetails();
+		
+		
+		System.out.println("Total account created: "+ getTotalAccounts());
 		
 		
 		
