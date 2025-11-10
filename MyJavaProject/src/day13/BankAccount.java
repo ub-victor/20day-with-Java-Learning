@@ -16,8 +16,8 @@ public class BankAccount {
 	private String accholderName;
 	private double balance;
 	
-	public BankAccount() {
-		
+	public BankAccount(String accholderName, double initialBalance ) {
+		//
 	}
 
 	public static void main(String[] args) {
