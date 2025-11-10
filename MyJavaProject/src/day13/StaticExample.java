@@ -32,7 +32,7 @@ public class StaticExample {
 	public static void main(String[] args) {
 		
 		System.out.println(a);
-		System.out.println(b);
+		//System.out.println(b);
 		m2();  
 		// m1();// Cannot access m() sd it is not-static
 		
