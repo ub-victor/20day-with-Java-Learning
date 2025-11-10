@@ -30,7 +30,7 @@ public class BankAccount {
 		
 		System.out.println("Account Number: "+ accountNum);
 		System.out.println("Account Holder: "+ accholderName);
-		System.out.println("Balance : "+ balance);
+		System.out.println("Balance : $"+ balance);
 		
 	}
 
