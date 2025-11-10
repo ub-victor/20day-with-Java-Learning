@@ -24,7 +24,9 @@ public class StaticExample {
 		System.out.println("We are in m2 not-static method");
 	}
 	
-	
+	static void m2(){
+		System.out.println("We are in m2 not-static method");
+	}
 	
 	public static void main(String[] args) {
 		
