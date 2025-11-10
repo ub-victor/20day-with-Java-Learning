@@ -29,6 +29,8 @@ public class BankAccount {
 	public static void main(String[] args) {
 		
 		BankAccount account1 = new BankAccount("John Doe", 500.00);
+		BankAccount account2 = new BankAccount("Jane Doe", 500.00);
+		BankAccount account3 = new BankAccount("James Doe", 500.00);
 		
 		
 		
