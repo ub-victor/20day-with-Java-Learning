@@ -15,10 +15,8 @@ public class StaticExample {
 	
 	public static void main(String[] args) {
 		
-		StaticExample p = new StaticExample();
-		
-		System.out.println(p.a);
-		System.out.println(p.b);
+		System.out.println(a);
+		System.out.println(b);
 		
 	}
 
