@@ -21,8 +21,14 @@ public class BankAccount {
 		this.accholderName = accholderName;
 		balance = initialBalance;
 	}
+	
+	int getTotalAccount() {
+		return totalAccounts;
+	}
 
 	public static void main(String[] args) {
+		
+		
 		
 
 	}
