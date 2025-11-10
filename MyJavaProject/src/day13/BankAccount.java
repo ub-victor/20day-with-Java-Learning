@@ -29,8 +29,8 @@ public class BankAccount {
 	void displayAccountDetails() {
 		
 		System.out.println("Account Number: "+ accountNum);
-		System.out.println("Account accholderName: "+ accholderName);
-		
+		System.out.println("Account Holder: "+ accholderName);
+		System.out.println("Balance : "+ balance);
 		
 	}
 
