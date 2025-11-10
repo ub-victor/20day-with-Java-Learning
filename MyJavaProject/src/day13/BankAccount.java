@@ -17,6 +17,7 @@ public class BankAccount {
 	private double balance;
 	
 	public BankAccount(String accholderName, double initialBalance ) {
+		this.accountNum = generateAccountNumber();
 		this.accholderName = accholderName;
 		balance = initialBalance;
 	}
