@@ -7,7 +7,9 @@ public class BankAccount {
 	
 	static int generateAccountNumber() {
 		
-		return 
+		totalAccounts++;
+		
+		return 1000 + totalAccounts;
 	}
 
 	public static void main(String[] args) {
