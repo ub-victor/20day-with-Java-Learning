@@ -25,6 +25,10 @@ public class BankAccount {
 	int getTotalAccount() {
 		return totalAccounts;
 	}
+	
+	void displayAccountDetails() {
+		
+	}
 
 	public static void main(String[] args) {
 		
