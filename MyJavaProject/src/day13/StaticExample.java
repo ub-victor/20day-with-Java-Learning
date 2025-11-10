@@ -9,6 +9,8 @@ public class StaticExample {
 	 If declared inside a function, a retains its value across function calls and is only 
 	 accessible within that function. If declared outside of any function, it becomes
 	 a file-scope static variable, accessible only to the functions within that specific file. 
+	 
+	 the variable is accessible across the Object
 	 * */
 	
 	static int a= 10;
