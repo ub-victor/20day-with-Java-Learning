@@ -9,6 +9,8 @@ public class StaticExample {
 		System.out.println("We are in m1 method");
 	}
 	
-	
+	void m1(){
+		System.out.println("We are in m1 method");
+	}
 
 }
