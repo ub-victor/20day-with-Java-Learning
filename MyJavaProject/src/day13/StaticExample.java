@@ -9,7 +9,7 @@ public class StaticExample {
 		System.out.println("We are in m1 method");
 	}
 	
-	void m1(){
+	void m2(){
 		System.out.println("We are in m1 method");
 	}
 
