@@ -28,6 +28,7 @@ public class BankAccount {
 	
 	void displayAccountDetails() {
 		
+		System.out.println("Account Number: "+ accountNum);
 	}
 
 	public static void main(String[] args) {
