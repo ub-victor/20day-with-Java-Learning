@@ -1,7 +1,8 @@
 package day14;
 
 class Parent{
-	String type = "General "
+	
+	
 }
 
 public class HierarchicalInheritanceDemo {
