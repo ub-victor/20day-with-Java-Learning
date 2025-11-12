@@ -21,6 +21,9 @@ public class SingleInheritanceExample {
 
 	public static void main(String[] args) {
 		
+		
+		
+		
 
 	}
 
