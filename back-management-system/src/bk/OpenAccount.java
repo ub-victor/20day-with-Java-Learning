@@ -8,7 +8,7 @@ public class OpenAccount extends Bpr {
 	private int age;
 	private String address;
 	private String phoneNumber; // allow amount > 10000
-	private double initialBalance;
+	private double initialBalance; // make a 
 
 	public OpenAccount(int bankId, String bankName, String bprAddress, int nationalId, String firstName,
 			String lastName, int age, String address, String phoneNumber, double initialBalance) {
@@ -69,6 +69,10 @@ public class OpenAccount extends Bpr {
 	}
 
 	public void setPhoneNumber(String phoneNumber) {
+		if (phoneNumber.length()> 10) {
+			
+		}
+
 		this.phoneNumber = phoneNumber;
 	}	
 
