@@ -37,6 +37,8 @@ public class MultilevellInheritanceDemo2 {
 		cObject.c = 123;
 		
 		cObject.display();
+		cObject.show();
+		cObject.display();
 
 	}
 
