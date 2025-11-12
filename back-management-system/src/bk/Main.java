@@ -17,7 +17,7 @@ public class Main {
 
 
 		
-		Deposite deposite = new Deposite(idBack, bankName, null, 0, null, null, 0, null, null, 0.0, 0, 0.0, 0.0);
+		Deposite deposite = new Deposite(bankId, bankName, null, 0, null, null, 0, null, null, 0.0, 0, 0.0, 0.0);
 		Scanner scanner = new Scanner(System.in);
 
 
