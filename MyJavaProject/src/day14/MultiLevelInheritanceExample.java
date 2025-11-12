@@ -36,9 +36,11 @@ public class MultiLevelInheritanceExample {
 		Puppy puppy = new Puppy();
 		
 		System.out.println(puppy.type); // Inherited from Animal
+		System.out.println(puppy.breed); // Inherited  from Dog
+		System.out.println(puppy.age); // Defined in Puppy
 		
-		puppy
-		
+		puppy.eat(); // from Animal
+		puppy.bark();
 
 	}
 
