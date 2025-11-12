@@ -17,7 +17,11 @@ class Dog1 extends Animal1 {
 }
 
 class cat extends Dog1{
+	String color = "White";
 	
+	void meow() {
+		System.out.println("The cat meows");
+	}
 }
 
 public class HierarchicalInheritanceExample {
