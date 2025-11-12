@@ -9,6 +9,7 @@ class Animal1{
 }
 
 class Dog1 extends Animal1 {
+	String breed = "Labrador";
 	
 }
 
