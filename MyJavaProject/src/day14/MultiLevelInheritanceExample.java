@@ -20,7 +20,7 @@ class Dog extends Animal {
 	}
 } 
 
-// Futher derived Class
+// Further derived Class
 
 class Puppy extends Dog{
 	int age = 1;
