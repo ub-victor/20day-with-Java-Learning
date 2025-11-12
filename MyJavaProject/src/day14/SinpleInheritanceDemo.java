@@ -11,6 +11,9 @@ class A{
 class B extends A{
 	int b;
 	
+	void show() {
+		System.out.println("In class B:" + b);
+	}
 }
 
 
