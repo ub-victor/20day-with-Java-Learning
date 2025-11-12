@@ -22,7 +22,8 @@ public class SingleInheritanceExample {
 	public static void main(String[] args) {
 		
 		
-		
+		Manager m = new Manager();
+		System.out.println(m.manage());
 		
 
 	}
