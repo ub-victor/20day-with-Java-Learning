@@ -1,6 +1,7 @@
 package day14;
 
 class A1{
+	
 	int a;
 	
 	void display() {
@@ -22,16 +23,7 @@ public class MultilevellInheritanceDemo2 {
 	
 	public static void main(String[] args) {
 		
-//		A aObject = new A();
-//		aObject.a = 10;
-//		aObject.display();
-//		
-//		B bObj = new B();
-//		bObj.a =10;
-//		bObj.b = 20;
-//		bObj.display();
-//		bObj.show();
-//		
+//		 
 
 	}
 
