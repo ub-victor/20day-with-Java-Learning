@@ -1,10 +1,10 @@
 package bk;
 
-public class Bpr {
+public class Bank {
     private int bankId;
     private String bankName;
 
-    public Bpr(int bankId, String bankName) {
+    public Bank(int bankId, String bankName) {
         this.bankId = bankId;
         this.bankName = bankName;
     }
