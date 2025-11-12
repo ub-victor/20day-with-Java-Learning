@@ -23,7 +23,12 @@ public class SingleInheritanceExample {
 		
 		
 		Manager m = new Manager();
-		System.out.println(m.manage());
+		System.out.println(m.name); // Inherited  variable
+		System.out.println(m.empID); // Inherited variable
+		System.out.println(m.department); // Subclass variable
+		
+		m.word();
+		m.manage();
 		
 
 	}
