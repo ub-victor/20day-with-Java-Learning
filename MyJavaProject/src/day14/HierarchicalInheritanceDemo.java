@@ -10,6 +10,12 @@ class Parent{
 
 class Child1 extends Parent{
 	
+	void show(int b){
+		System.out.println(b);
+		
+		
+	}
+	
 }
 
 public class HierarchicalInheritanceDemo {
