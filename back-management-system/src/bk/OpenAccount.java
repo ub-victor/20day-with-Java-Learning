@@ -1,62 +1,85 @@
 package bk;
 
-public class OpenAccount {
+public class OpenAccount extends Bpr {
 	
-	int accountNumber;
-	String accountHolderName;
-	String address;
-	String phoneNumber;
-	String email;
-	double initialBalance;
-	
+	private int nationalId;
+	private String firstName;
+	private String lastName;
+	private int age;
+	private String address;
+	private String phoneNumber;
+	private double initialBalance;
 
-	public void DisplayAccountDetails() {
-		System.out.println("Here is your Info");
-		System.out.println();
-		System.out.println("Account Number: " + accountNumber);
-		System.out.println("Account Holder Name: " + accountHolderName);
-		System.out.println("Address: " + address);
-		System.out.println("Phone Number: " + phoneNumber);
-		System.out.println("Email: " + email);
-		System.out.println("Initial Balance: $" + initialBalance);
-	}
-
-	public OpenAccount(int accountNumber, String accountHolderName, String address, String phoneNumber, String email,
-			double initialBalance) {
-		this.accountNumber = accountNumber;
-		this.accountHolderName = accountHolderName;
+	public OpenAccount(int bankId, String bankName, String bprAddress, int nationalId, String firstName,
+			String lastName, int age, String address, String phoneNumber, double initialBalance) {
+		super(bankId, bankName, bprAddress);
+		this.nationalId = nationalId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
 		this.address = address;
 		this.phoneNumber = phoneNumber;
-		this.email = email;
 		this.initialBalance = initialBalance;
 	}
 
-	public OpenAccount() {
-	} 
 
-	// Add simple setters so Main.java can call methods like account.accountNumber(...)
-	public void accountNumber(int accountNumber) {
-		this.accountNumber = accountNumber;
+	// getter and setter methods
+	public int getNationalId() {
+		return nationalId;
 	}
 
-	public void accountHolderName(String accountHolderName) {
-		this.accountHolderName = accountHolderName;
+	public void setNationalId(int nationalId) {
+		this.nationalId = nationalId;
 	}
 
-	public void address(String address) {
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
 		this.address = address;
 	}
 
-	public void phoneNumber(String phoneNumber) {
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
+	}	
+
+	public double getInitialBalance() {
+		return initialBalance;
 	}
 
-	public void email(String email) {
-		this.email = email;
-	}
-
-	public void initialBalance(double initialBalance) {
+	public void setInitialBalance(double initialBalance) {
 		this.initialBalance = initialBalance;
 	}
 
 }
+
+
