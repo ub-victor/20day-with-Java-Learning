@@ -27,7 +27,7 @@ class cat extends Dog1{
 public class HierarchicalInheritanceExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		 Dog1 dog = new Dog1();
 
 	}
 
