@@ -13,7 +13,7 @@ public class Bpr extends Bank {
     }
     public void setBprAddress(String bprAddress) {
         if (!bprAddress.equals("REMERA")|| !bprAddress.equals("NYABUGOGO")) {
-            System.out.println("Invalid BPR address.");
+            System.out.println("Invalid BPR address."); 
             return;
             
         }
