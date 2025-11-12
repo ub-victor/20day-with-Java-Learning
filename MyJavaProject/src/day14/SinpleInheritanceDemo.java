@@ -29,6 +29,7 @@ public class SinpleInheritanceDemo {
 		B bObj = new B();
 		bObj.a =10;
 		bObj.b = 20;
+		bObj.display();
 		
 
 	}
