@@ -9,7 +9,15 @@ class A1{
 	}
 }
 
-class B1 extends A{
+class B1 extends A1{
+	int b;
+	
+	void show() {
+		System.out.println("In class B:" + b);
+	}
+}
+
+class C1 extends B1{
 	int b;
 	
 	void show() {
