@@ -77,6 +77,9 @@ public class OpenAccount extends Bpr {
 	}
 
 	public void setInitialBalance(double initialBalance) {
+		while (age<16) {
+			System.out.println("The person is not allowed");
+		}
 		this.initialBalance = initialBalance;
 	}
 
