@@ -14,6 +14,10 @@ class Animal{
 
 class Dog extends Animal {
 	String breed = "Labrador";
+	
+	void bark() {
+		System.out.println("The dog barks");
+	}
 } 
 
 public class MultiLevelInheritanceExample {
