@@ -2,10 +2,12 @@ package day14;
 
 // Base/Parent class
 
-Class Animal{
+class Animal{
 	String type = "General Animal";
 	
 	void eat() {
+		
+		System
 		
 	}
 }
