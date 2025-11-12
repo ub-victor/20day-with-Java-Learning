@@ -16,15 +16,15 @@ public class Main {
 
 
 
-		// Default values of integer type is 0 and for String type is null
+		
 		Deposite deposite = new Deposite(idBack, bankName, null, 0, null, null, 0, null, null, 0.0, 0, 0.0, 0.0);
 		Scanner scanner = new Scanner(System.in);
 
-		
+
 		System.out.println("Enter Bank ID: ");
 		idBack = scanner.nextInt();
 
-		scanner.nextLine(); // Consume newline
+		scanner.nextLine(); 
 
 		System.out.println("Enter Bank Name: ");
 		bankName = scanner.next();
@@ -32,7 +32,7 @@ public class Main {
 		System.out.println("Enter National ID: ");
 		nationalId = scanner.nextInt();
 
-		scanner.nextLine(); // Consume newline
+		scanner.nextLine(); 
 
 		System.out.println("Enter First Name: ");
 		firstName = scanner.nextLine();
@@ -43,7 +43,7 @@ public class Main {
 		System.out.println("Enter Age: ");
 		age = scanner.nextInt();
 
-		scanner.nextLine(); // Consume newline
+		scanner.nextLine(); 
 
 		System.out.println("Enter Address: ");
 		address = scanner.nextLine();
