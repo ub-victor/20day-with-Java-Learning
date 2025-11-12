@@ -23,7 +23,8 @@ public class Bank {
 
     public void setBankName(String bankName) {
         while (!bankName.equals("BPR")) {
-            
+            System.out.println("Invalid bank name. Please enter 'BPR'.");
+            return;
         }
         this.bankName = bankName;
     }
