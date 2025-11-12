@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
     <fullyQualifiedTypeName name="day13.StaticExample"/>
     <fullyQualifiedTypeName name="day13.BankAccount"/>
+    <fullyQualifiedTypeName name="day14.Parent"/>
 </qualifiedTypeNameHistroy>
