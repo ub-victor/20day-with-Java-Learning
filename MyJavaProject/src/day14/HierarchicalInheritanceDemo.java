@@ -16,6 +16,14 @@ class Child1 extends Parent{
 	
 }
 
+class Child2 extends Child1{
+	
+	void print(int c){
+		System.out.println(c);
+	}
+	
+}
+
 public class HierarchicalInheritanceDemo {
 
 	public static void main(String[] args) {
