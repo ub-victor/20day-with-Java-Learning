@@ -30,6 +30,7 @@ public class HierarchicalInheritanceDemo {
 		
 		Child1 c1 = new Child1();
 		c1.display(10);
+		c1.show()
 		
 
 	}
