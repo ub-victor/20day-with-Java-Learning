@@ -9,6 +9,14 @@ class Employee{
 	}
 }
 
+class Manager extends Employee{
+	String department = "Sales";
+	
+	void manage() {
+		System.out.println(name + " Is manging the "+ department);
+	}
+}
+
 public class SingleInheritanceExample {
 
 	public static void main(String[] args) {
