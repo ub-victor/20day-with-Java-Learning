@@ -40,7 +40,7 @@ public class MultiLevelInheritanceExample {
 		System.out.println(puppy.age); // Defined in Puppy
 		
 		puppy.eat(); // from Animal
-		puppy.bark();
+		puppy.bark(); // From dog
 
 	}
 
