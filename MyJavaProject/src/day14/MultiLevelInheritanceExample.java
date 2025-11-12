@@ -41,6 +41,7 @@ public class MultiLevelInheritanceExample {
 		
 		puppy.eat(); // from Animal
 		puppy.bark(); // From dog
+		puppy.play(); // from itself
 
 	}
 
