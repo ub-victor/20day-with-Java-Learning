@@ -31,7 +31,7 @@ public class MultilevellInheritanceDemo2 {
 	
 	public static void main(String[] args) {
 		
-		
+		C1 cObject = new C1();
 
 	}
 
