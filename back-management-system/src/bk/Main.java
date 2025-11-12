@@ -54,6 +54,15 @@ public class Main {
 		System.out.println("Enter Initial Balance: ");
 		initialBalance = scanner.nextDouble();
 
+
+		scanner.close();
+
+		System.out.println("Account Opened Successfully!");
+
+		System.out.println("The bank id is " + bankId + ", bank name is " + bankName + ", national ID is " + nationalId
+				+ ", first name is " + firstName + ", last name is " + lastName + ", age is " + age + ", address is "
+				+ address + ", phone number is " + phoneNumber + ", initial balance is " + initialBalance + ".");
+
 	}
 
 }
