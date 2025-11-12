@@ -11,6 +11,10 @@ class Animal1{
 class Dog1 extends Animal1 {
 	String breed = "Labrador";
 	
+	void () {
+		System.out.println("The dog barks");
+	}
+	
 }
 
 public class HierarchicalInheritanceExample {
