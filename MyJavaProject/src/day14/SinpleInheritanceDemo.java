@@ -20,9 +20,11 @@ class B extends A{
 public class SinpleInheritanceDemo {
 	
 	
-	
-
 	public static void main(String[] args) {
+		
+		A aObject = new A();
+		aObject.a = 10;
+		aObject.display();
 		
 
 	}
