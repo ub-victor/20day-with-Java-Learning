@@ -35,6 +35,8 @@ public class MultilevellInheritanceDemo2 {
 		cObject.a = 100;
 		cObject.b = 122;
 		cObject.c = 123;
+		
+		cObject.display();
 
 	}
 
