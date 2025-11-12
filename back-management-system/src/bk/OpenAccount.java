@@ -69,10 +69,6 @@ public class OpenAccount extends Bpr {
 	}
 
 	public void setPhoneNumber(String phoneNumber) {
-		if (phoneNumber.length()> 10) {
-			
-		}
-
 		this.phoneNumber = phoneNumber;
 	}	
 
