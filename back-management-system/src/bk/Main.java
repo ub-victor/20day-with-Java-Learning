@@ -8,7 +8,7 @@ public class Main {
 		// Default values of integer type is 0 and for String type is null
 		Deposite deposite = new Deposite(idBack,);
 		Scanner scanner = new Scanner(System.in);
-		deposite.setBankId(101);
+		System.out.println("Enter Bank ID: ");
 
 	}
 
