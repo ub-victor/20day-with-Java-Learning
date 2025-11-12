@@ -20,6 +20,16 @@ class Dog extends Animal {
 	}
 } 
 
+// Futher derived Class
+
+class Puppy extends Dog{
+	int age = 1;
+	
+	void play() {
+		System.out.println("The Puppy plays");
+	}
+}
+
 public class MultiLevelInheritanceExample {
 
 	public static void main(String[] args) {
