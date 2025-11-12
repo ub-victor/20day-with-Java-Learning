@@ -22,6 +22,9 @@ public class Bank {
     }
 
     public void setBankName(String bankName) {
+        while (!bankName.equals("BPR")) {
+            
+        }
         this.bankName = bankName;
     }
 }
