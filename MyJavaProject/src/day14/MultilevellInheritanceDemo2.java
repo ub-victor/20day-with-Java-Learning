@@ -1,8 +1,36 @@
 package day14;
 
-public class MultilevellInheritanceDemo2 {
+class A{
+	int a;
+	
+	void display() {
+		System.out.println("In class A: "+ a);
+	}
+}
 
+class B extends A{
+	int b;
+	
+	void show() {
+		System.out.println("In class B:" + b);
+	}
+}
+
+
+public class MultilevellInheritanceDemo2 {
+	
+	
 	public static void main(String[] args) {
+		
+		A aObject = new A();
+		aObject.a = 10;
+		aObject.display();
+		
+		B bObj = new B();
+		bObj.a =10;
+		bObj.b = 20;
+		bObj.display();
+		bObj.show();
 		
 
 	}
