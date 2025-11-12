@@ -7,10 +7,14 @@ class Animal{
 	
 	void eat() {
 		
-		System
+		System.out.println("This animal eats food");
 		
 	}
 }
+
+class Dog extends Animal {
+	String breed = "Labrador";
+} 
 
 public class MultiLevelInheritanceExample {
 
