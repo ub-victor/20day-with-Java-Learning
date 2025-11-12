@@ -28,6 +28,7 @@ public class HierarchicalInheritanceExample {
 
 	public static void main(String[] args) {
 		 Dog1 dog = new Dog1();
+		 Cat cat = new Cat();
 
 	}
 
