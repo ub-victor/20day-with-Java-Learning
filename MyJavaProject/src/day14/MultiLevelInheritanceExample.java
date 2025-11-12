@@ -6,7 +6,6 @@ class Animal{
 	String type = "General Animal";
 	
 	void eat() {
-		
 		System.out.println("This animal eats food");
 		
 	}
@@ -33,6 +32,12 @@ class Puppy extends Dog{
 public class MultiLevelInheritanceExample {
 
 	public static void main(String[] args) {
+		
+		Puppy puppy = new Puppy();
+		
+		System.out.println(puppy.type);
+		
+		puppy
 		
 
 	}
