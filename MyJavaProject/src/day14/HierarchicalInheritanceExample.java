@@ -4,7 +4,7 @@ class Animal1{
 	String type = "General Animal";
 	
 	void eat() {
-		System.out.println("This animal eats food);
+		System.out.println("This animal eats food");
 	}
 }
 
