@@ -23,7 +23,7 @@ public class OpenAccount extends Bpr {
 	}
 
 
-	// getter and setter methods
+	
 	public int getNationalId() {
 		return nationalId;
 	}
