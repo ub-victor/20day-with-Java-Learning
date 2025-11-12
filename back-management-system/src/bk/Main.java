@@ -22,7 +22,7 @@ public class Main {
 
 
 		System.out.println("Enter Bank ID: ");
-		idBack = scanner.nextInt();
+		bankId = scanner.nextInt();
 
 		scanner.nextLine(); 
 
