@@ -38,7 +38,7 @@ public class HierarchicalInheritanceExample {
 		 System.out.println(cat.type);
 		 System.out.println(cat.color);
 		 cat.eat();
-		 dog.bark();
+		 cat.bark();
 
 	}
 
