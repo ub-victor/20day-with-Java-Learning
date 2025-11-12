@@ -18,10 +18,10 @@ class B1 extends A1{
 }
 
 class C1 extends B1{
-	int b;
+	int c;
 	
 	void show() {
-		System.out.println("In class B:" + b);
+		System.out.println("In class c:" + c);
 	}
 }
 
