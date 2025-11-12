@@ -32,6 +32,9 @@ public class MultilevellInheritanceDemo2 {
 	public static void main(String[] args) {
 		
 		C1 cObject = new C1();
+		cObject.a = 100;
+		cObject.b = 122;
+		cObject.c = 123;
 
 	}
 
