@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		int idBack = 0;
+		int bankId = 0;
 		String bankName = null;
 		int nationalId = 0;
 		String firstName = null;
