@@ -7,7 +7,7 @@ public class OpenAccount extends Bpr {
 	private String lastName;
 	private int age;
 	private String address;
-	private String phoneNumber;
+	private String phoneNumber; // allow amount > 10000
 	private double initialBalance;
 
 	public OpenAccount(int bankId, String bankName, String bprAddress, int nationalId, String firstName,
