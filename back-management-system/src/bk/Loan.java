@@ -46,11 +46,4 @@ public class Loan {
 	public void setSavingAmount(double savingAmount) {
 		this.savingAmount = savingAmount;
 	}
-
-	// we need two methods getter and setter and they should be public
-	
-
-	
-	
-
 }
