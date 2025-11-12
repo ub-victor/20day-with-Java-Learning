@@ -27,6 +27,8 @@ public class SingleInheritanceExample {
 		System.out.println(m.empID); // Inherited variable
 		System.out.println(m.department); // Subclass variable
 		
+		
+		
 		m.word();
 		m.manage();
 		
