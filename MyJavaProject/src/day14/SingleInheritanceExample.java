@@ -29,8 +29,8 @@ public class SingleInheritanceExample {
 		
 		
 		
-		m.word();
-		m.manage();
+		m.word(); // Inherited method from Employee
+		m.manage(); // Method form Manager class
 		
 
 	}
