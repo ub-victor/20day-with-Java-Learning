@@ -9,7 +9,6 @@ public class Bank {
         this.bankName = bankName;
     }
 
-    // getter and setter methods
     public int getBankId() {
         return bankId;
     }
