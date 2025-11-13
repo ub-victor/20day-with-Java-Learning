@@ -16,7 +16,7 @@ class Dog1 extends Animal1{
 	}
 }
 
-class Cat extends Animal1 {
+class Cat extends Dog1 {
 	String color = "White";
 	
 	void meow() {
@@ -34,7 +34,10 @@ public class HierachicalInheritanceExample {
 		System.out.println(dog.breed);
 		dog.eat();
 		dog.bark();
-		System.out.println();
+		
+		System.out.println(cat.type);
+		System.out.println(cat.color);
+		System.out.println(cat);
 		 
 	}
 
