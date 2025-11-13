@@ -16,6 +16,10 @@ class Dog1 extends Animal1{
 	}
 }
 
+class Cat extends Animal1 {
+	String color = "White";
+}
+
 public class HierachicalInheritanceExample {
 
 	public static void main(String[] args) {
