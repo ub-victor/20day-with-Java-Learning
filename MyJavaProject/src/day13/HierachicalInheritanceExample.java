@@ -27,6 +27,14 @@ class Cat extends Animal1 {
 public class HierachicalInheritanceExample {
 
 	public static void main(String[] args) {
+		Dog1 dog = new Dog1();
+		Cat cat = new Cat();
+		
+		System.out.println(dog.type);
+		System.out.println(dog.breed);
+		dog.eat();
+		dog.bark();
+		System.out.println();
 		 
 	}
 
