@@ -1,48 +1,35 @@
 package day13;
 
-class Animal1{
-	String type = "General Animal";
-	
-	void eat() {
-		System.out.println("This animal eats food");
-	}
+class Animal {
+    void eat() {
+        System.out.println("Animals eat food.");
+    }
 }
 
-class Dog1 extends Animal1{
-	String breed = "Labrador";
-	
-	void bark() {
-		System.out.println("The dog barks");
-	}
+class Dog extends Animal {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
 }
 
-class Cat extends Dog1 {
-	String color = "White";
-	
-	void meow() {
-		 System.out.println("The cat meows");
-	}
+class Cat extends Animal {
+    void meow() {
+        System.out.println("The cat meows.");
+    }
 }
 
-public class HierachicalInheritanceExample {
 
-	public static void main(String[] args) {
-		Dog1 dog = new Dog1();
-		Cat cat = new Cat();
-		
-		System.out.println(dog.type);
-		System.out.println(dog.breed);
-		dog.eat();
-		dog.bark();
-		
-		System.out.println(cat.type);
-		System.out.println(cat.color);
-		System.out.println(cat.breed);
-		
-		cat.eat();
-		cat.bark();
-		cat.meow();
-		 
-	}
 
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        Cat c = new Cat();
+
+        d.eat();
+        d.bark();
+
+        c.eat();
+        c.meow();
+    }
 }
+
+
