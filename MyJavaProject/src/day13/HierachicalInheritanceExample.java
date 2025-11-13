@@ -37,7 +37,11 @@ public class HierachicalInheritanceExample {
 		
 		System.out.println(cat.type);
 		System.out.println(cat.color);
-		System.out.println(cat);
+		System.out.println(cat.breed);
+		
+		cat.eat();
+		cat.bark();
+		cat.meow();
 		 
 	}
 
