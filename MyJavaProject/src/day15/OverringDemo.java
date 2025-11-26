@@ -16,6 +16,9 @@ public class OverringDemo {
 
 	public static void main(String[] args) {
 		
+		JPMC jpmc = new JPMC();
+		System.out.println(jpmc.roi());
+		
 
 	}
 
