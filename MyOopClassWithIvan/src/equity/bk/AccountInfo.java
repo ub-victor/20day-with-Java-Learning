@@ -35,6 +35,10 @@ public class AccountInfo {
         return lName;
     }
     public void setlName(String lName) {
+        if(lName == null || lName.isEmpty()) {
+           System.out.println("Last name cannot be empty");
+           return;
+        }
         this.lName = lName;
     }
     public int getAge() {
