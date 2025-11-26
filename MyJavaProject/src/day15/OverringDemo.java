@@ -6,6 +6,12 @@ class Bank {
 	}
 }
 
+class JPMC extends Bank{
+	double roi() {
+		return 9.81
+	}
+}
+
 public class OverringDemo {
 
 	public static void main(String[] args) {
