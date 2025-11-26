@@ -1,4 +1,4 @@
-package Equity;
+package equity;
 
 public class Main1 implements Main {
 
