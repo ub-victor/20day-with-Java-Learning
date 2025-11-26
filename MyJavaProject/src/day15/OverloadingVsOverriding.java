@@ -30,7 +30,10 @@ class XYZ extends ABC{
 public class OverloadingVsOverriding {
 
 	public static void main(String[] args) {
-		
+		XYZ xyz = new XYZ();
+		xyz.m1(2);
+		xyz.m2(10,20); //Overloading
+		xyz.m1(10);
 
 	}
 
