@@ -25,10 +25,6 @@ class XYZ extends ABC{
 		System.out.println(a+b);
 		
 	}
-	
-	
-	
-	
 }
 
 public class OverloadingVsOverriding {
