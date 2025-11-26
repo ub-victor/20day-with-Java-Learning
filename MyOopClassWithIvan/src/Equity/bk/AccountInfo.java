@@ -43,6 +43,10 @@ public class AccountInfo {
         return address;
     }
     public void setAddress(String address) {
+        if(address == null || address.isEmpty()) {
+           System.out.println("Address cannot be empty");
+           return;
+        }
         this.address = address;
     }
 
