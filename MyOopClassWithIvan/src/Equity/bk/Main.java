@@ -8,10 +8,19 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("please enter id");
         AccountInfo accountInfo = new AccountInfo();
-        int in = sc.nextInt();
-        accountInfo.setNationalId(in);
-        System.out.println("your id is " + accountInfo.getNationalId());
-        sc.close();
+        
+        System.out.println("please enter national id");
+        accountInfo.setNationalId(sc.nextLine());
+        System.out.println("please enter first name");
+        accountInfo.setfName(sc.nextLine());
+        System.out.println("please enter last name");
+        accountInfo.setlName(sc.nextLine());
+        System.out.println("please enter age");
+        accountInfo.setAge(sc.nextInt());
+        sc.nextLine(); 
+        System.out.println("please enter address");
+        accountInfo.setAddress(sc.nextLine());
+
 
     }
     
