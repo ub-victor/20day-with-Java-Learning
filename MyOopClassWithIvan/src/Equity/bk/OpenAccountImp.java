@@ -1,5 +1,6 @@
 package Equity.bk;
 
-public class OpenAccountImp {
+public class OpenAccountImp implements OpenAccount  {
+    
     
 }
