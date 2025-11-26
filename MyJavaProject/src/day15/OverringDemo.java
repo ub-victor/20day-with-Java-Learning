@@ -1,7 +1,9 @@
 package day15;
 
 class Bank {
-	double
+	double roi(){
+		return 0.5;
+	}
 }
 
 public class OverringDemo {
