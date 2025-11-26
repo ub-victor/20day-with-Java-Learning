@@ -10,6 +10,8 @@ public class OpenAccountImp implements OpenAccount  {
         + " the last name is " + acc.getlName()
         + " the age is " + acc.getAge()
         + " the address is " + acc.getAddress());
+
+        System.out.println("Account has been added successfully");
     }
 
     @Override
