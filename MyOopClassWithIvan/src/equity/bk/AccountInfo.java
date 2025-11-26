@@ -45,6 +45,10 @@ public class AccountInfo {
         return age;
     }
     public void setAge(int age) {
+        if(age < 0) {
+           System.out.println("Age cannot be negative");
+           return;
+        }
         this.age = age;
     }
     public String getAddress() {
