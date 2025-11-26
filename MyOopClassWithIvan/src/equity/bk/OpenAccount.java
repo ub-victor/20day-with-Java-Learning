@@ -1,6 +1,6 @@
 package equity.bk;
 
 
-public final class OpenAccount {
+public interface OpenAccount {
   
 }
