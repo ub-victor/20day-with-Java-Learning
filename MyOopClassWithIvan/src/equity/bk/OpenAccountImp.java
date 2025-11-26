@@ -1,4 +1,4 @@
-package Equity.bk;
+package equity.bk;
 
 public class OpenAccountImp implements OpenAccount  {
 
@@ -12,7 +12,7 @@ public class OpenAccountImp implements OpenAccount  {
        
     }
 
-    
+
 
     
 }
