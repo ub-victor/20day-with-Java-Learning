@@ -21,6 +21,13 @@ class XYZ extends ABC{
 		
 	}
 	
+	void m2(int b ) { // Overriding
+		System.out.println(b);
+		
+	}
+	
+	
+	
 	
 }
 
