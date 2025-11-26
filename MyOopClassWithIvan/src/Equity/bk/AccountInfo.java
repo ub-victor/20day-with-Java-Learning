@@ -1,25 +1,25 @@
 package Equity.bk;
 
 public class AccountInfo {
-    private String accountInfo;
+    private String nationalId;
     private String fName;
     private String lName;
     private int age;
     private String address;
-    
-    public AccountInfo(String accountInfo, String fName, String lName, int age, String address) {
-        this.accountInfo = accountInfo;
+
+    public AccountInfo(String nationalId, String fName, String lName, int age, String address) {
+        this.nationalId = nationalId;
         this.fName = fName;
         this.lName = lName;
         this.age = age;
         this.address = address;
     }
 
-    public String getAccountInfo() {
-        return accountInfo;
+    public String getNationalId() {
+        return nationalId;
     }
-    public void setAccountInfo(String accountInfo) {
-        this.accountInfo = accountInfo;
+    public void setNationalId(String nationalId) {
+        this.nationalId = nationalId;
     }
     public String getfName() {
         return fName;
