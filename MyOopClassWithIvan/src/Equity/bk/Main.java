@@ -21,7 +21,12 @@ public class Main {
         System.out.println("please enter address");
         accountInfo.setAddress(sc.nextLine());
 
-
+        // setting values
+        accountInfo.setNationalId(id);
+        accountInfo.setfName(fName);
+        accountInfo.setlName(lName);
+        accountInfo.setAge(age);
+        accountInfo.setAddress(address);    
     }
     
 }
