@@ -1,4 +1,4 @@
-package Equity.bk;
+package equity.bk;
 
 import java.util.Scanner;
 
