@@ -1,5 +1,5 @@
 package day15;
-// Here is what known as 
+// Here is what known as Overriding what the child class declare the same method already implemented in the upper class
 class Bank {
 	double roi(){
 		return 0.5;

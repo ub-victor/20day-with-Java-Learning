@@ -3758,3 +3758,8 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY ch.qos.logback.classic 1 0 2025-11-26 13:08:33.725
 !MESSAGE Logback config file: /home/victoire/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.core.resources 2 2 2025-11-26 13:37:46.168
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-11-26 13:37:46.168
+!MESSAGE The project description file (.project) for 'UshindiVictoire' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
