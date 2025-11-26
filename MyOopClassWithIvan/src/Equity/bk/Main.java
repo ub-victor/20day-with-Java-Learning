@@ -9,6 +9,10 @@ public class Main {
         System.out.println("please enter id");
         AccountInfo accountInfo = new AccountInfo();
         int in = sc.nextInt();
+        accountInfo.setNationalId(in);
+        System.out.println("your id is " + accountInfo.getNationalId());
+        sc.close();
+
     }
     
 }
