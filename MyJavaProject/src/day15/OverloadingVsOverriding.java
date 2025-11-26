@@ -10,6 +10,20 @@ class ABC {
 	}
 }
 
+class XYZ extends ABC{
+	void m1(int a ) { // Overriding
+		System.out.println(a);
+		
+	}
+	
+	void m2(int b ) { // Overriding
+		System.out.println(b);
+		
+	}
+	
+	
+}
+
 public class OverloadingVsOverriding {
 
 	public static void main(String[] args) {
