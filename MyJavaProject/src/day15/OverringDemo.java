@@ -1,6 +1,8 @@
 package day15;
 
-
+class Bank {
+	double
+}
 
 public class OverringDemo {
 
