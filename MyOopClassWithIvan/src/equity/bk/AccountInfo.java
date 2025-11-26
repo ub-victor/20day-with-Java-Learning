@@ -1,4 +1,4 @@
-package Equity.bk;
+package equity.bk;
 
 public class AccountInfo {
     private String nationalId;
