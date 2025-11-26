@@ -5,28 +5,28 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("please enter id");
-        AccountInfo accountInfo = new AccountInfo();
         
+        Scanner sc = new Scanner(System.in);
         System.out.println("please enter national id");
-        accountInfo.setNationalId(sc.nextLine());
+        String id = sc.nextLine();
         System.out.println("please enter first name");
-        accountInfo.setfName(sc.nextLine());
+        String fName = sc.nextLine();
         System.out.println("please enter last name");
-        accountInfo.setlName(sc.nextLine());
+        String lName = sc.nextLine();
         System.out.println("please enter age");
-        accountInfo.setAge(sc.nextInt());
+        int age = sc.nextInt();
         sc.nextLine(); 
         System.out.println("please enter address");
-        accountInfo.setAddress(sc.nextLine());
+        String address = sc.nextLine();
+        
+        AccountInfo accountInfo = new AccountInfo(id, fName, lName, age, address);
 
-        // setting values
+        // set values
         accountInfo.setNationalId(id);
         accountInfo.setfName(fName);
         accountInfo.setlName(lName);
         accountInfo.setAge(age);
-        accountInfo.setAddress(address);    
+        accountInfo.setAddress(address);
     }
     
 }
