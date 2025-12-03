@@ -27,7 +27,7 @@ class Dog extends Animal{
 	}
 
 	Dog(){
-		 super();
+		 super();//Default cons optional
 		System.out.println("Dog Defalt Constructor Called");
 	}
 }
