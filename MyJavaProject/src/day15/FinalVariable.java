@@ -2,6 +2,7 @@ package day15;
 
 class FinalDemo{
 	final double PI = 3.14159;
+	
 }
 
 public class FinalVariable {

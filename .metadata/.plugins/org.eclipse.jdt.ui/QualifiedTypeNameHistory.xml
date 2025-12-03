@@ -11,4 +11,8 @@
     <fullyQualifiedTypeName name="day13.Animal1"/>
     <fullyQualifiedTypeName name="day15.Bank"/>
     <fullyQualifiedTypeName name="day15.ABC"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="day15.Animal"/>
+    <fullyQualifiedTypeName name="day15.Parent"/>
+    <fullyQualifiedTypeName name="day15.FinalDemo"/>
 </qualifiedTypeNameHistroy>
