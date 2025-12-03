@@ -22,4 +22,8 @@ class Dog extends Animal{
 		super.sound();
 		System.out.println("Dog Barks");
 	}
+
+Dog(){
+	System.out.println("Dog Defalt Constructor Called");
+}
 }
