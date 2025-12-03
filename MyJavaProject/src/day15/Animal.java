@@ -3,6 +3,9 @@ package day15;
 
 public class Animal {
 	String color = "brown";
+	public Animal() {
+		System.out.println("Animal default constructor");
+	}
 	void sound() {
 		System.out.println("Animal makes a sound");
 	}
