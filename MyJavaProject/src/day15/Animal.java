@@ -23,7 +23,7 @@ class Dog extends Animal{
 		System.out.println("Dog Barks");
 	}
 
-Dog(){
-	System.out.println("Dog Defalt Constructor Called");
-}
+	Dog(){
+		System.out.println("Dog Defalt Constructor Called");
+	}
 }
