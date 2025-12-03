@@ -17,4 +17,9 @@ class Dog extends Animal{
 		System.out.println(super.color);
 		System.out.println(color);
 	}
+	
+	void Sound() {
+		super.sound();
+		System.out.println("Dog Barks");
+	}
 }
