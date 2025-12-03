@@ -27,7 +27,7 @@ public class AccountInfo {
     public void setfName(String fName) {
         if(fName == null || fName.isEmpty()) {
            System.out.println("First name cannot be empty");
-           return;
+           ;
         }
         this.fName = fName;
     }

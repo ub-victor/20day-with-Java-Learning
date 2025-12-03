@@ -27,6 +27,12 @@ public class Main {
         accountInfo.setlName(lName);
         accountInfo.setAge(age);
         accountInfo.setAddress(address);
+        OpenAccountImp openAccountImp = new OpenAccountImp();
+        openAccountImp.addAccount();
+        
+
     }
+
+    
     
 }

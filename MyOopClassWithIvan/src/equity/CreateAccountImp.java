@@ -1,6 +1,6 @@
-package Equity;
+package equity;
 
 public class CreateAccountImp {
-    
+
     
 }
