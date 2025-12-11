@@ -21,7 +21,7 @@ class SavingsAccount extends BackAccount{
 	
 	}
 	double calculateInterest(double rate) {
-		return balance * rate * 2
+		return balance * rate * 2;
 	}
 }
 
