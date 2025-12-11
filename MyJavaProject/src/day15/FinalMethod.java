@@ -20,7 +20,7 @@ class SavingsAccount extends BackAccount{
 		this. interestRate =  interestRate;
 	
 	}
-	double calculateInterest(double rate) {
+	double calculateInterest(double rate) {// the methiod is protected
 		return balance * rate * 2;
 	}
 }
