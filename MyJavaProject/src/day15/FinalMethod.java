@@ -12,6 +12,17 @@ class BackAccount{
 	}
 }
 
+class SavingsAccount extends BackAccount{
+	double interestRate;
+	
+	SavingsAccount( double balance. double interestRate){
+		super(balance);
+		this.interestRate = interestRate;
+	
+	}
+	
+}
+
 public class FinalMethod {
 
 	public static void main(String[] args) {
