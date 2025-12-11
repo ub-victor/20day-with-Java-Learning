@@ -1,13 +1,13 @@
 package day15;
 
-class Vehical {
+final class Vehical {
 	
 	void display() {
 		System.out.println("This is a vehicle");
 	}
 }
 
-class Car extends Vehical{
+class Car extends Vehical{ // it can not be extended
 	
 }
 
