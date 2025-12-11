@@ -6,6 +6,10 @@ class BackAccount{
 	void BankAccount(double balance){
 		this.balance = balance;
 	}
+	
+	double calculateInterest (double rate) {
+		return balance * rate;
+	}
 }
 
 public class FinalMethod {
