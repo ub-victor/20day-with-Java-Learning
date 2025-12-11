@@ -13,14 +13,14 @@ class BackAccount{
 }
 
 class SavingsAccount extends BackAccount{
-	double interestRate;
+	double interestRate1;
 	
-	SavingsAccount( double balance. double interestRate){
+	SavingsAccount( double balance, double interestRate){
 		super(balance);
-		this.interestRate = interestRate;
+		this.interestRate1 = interestRate;
 	
 	}
-	
+	double interestRate;
 }
 
 public class FinalMethod {
