@@ -7,7 +7,7 @@ class BackAccount{
 		this.balance = balance;
 	}
 	
-	double calculateInterest (double rate) {
+	final double calculateInterest (double rate) {
 		return balance * rate;
 	}
 }
