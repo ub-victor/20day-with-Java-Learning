@@ -3,7 +3,7 @@ package day15;
 class BackAccount{
 	double balance;
 	
-	BankAccount (double balance){
+	BackAccount (double balance){
 		this.balance = balance;
 	}
 	
