@@ -3,7 +3,7 @@ package day15;
 class BackAccount{
 	double balance;
 	
-	void BankAccount(double balance){
+	BankAccount (double balance){
 		this.balance = balance;
 	}
 	
