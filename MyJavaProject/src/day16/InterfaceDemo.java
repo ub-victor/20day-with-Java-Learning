@@ -23,7 +23,9 @@ public class InterfaceDemo implements Shape {
 		idObj.circle(); // abstract
 		idObj.square();// default
 		//idObj.rectangle(); // cannot access we can do this to access it !.
-		Shape.rectangle(); // Static methods can be access by using the interface name
+		Shape.rectangle(); // Static methods can be access by using the interface name, same to access the variables
+		
+		System.out.println(Shape);
 	}
 
 	@Override
