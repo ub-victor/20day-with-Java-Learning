@@ -21,6 +21,8 @@ public class InterfaceDemo implements Shape {
 	public static void main(String[] args) {
 		InterfaceDemo idObj = new InterfaceDemo();
 		idObj.circle(); // abstract
+		idObj.square();// default
+		idObj.rectangle();
 	}
 
 	@Override
