@@ -25,7 +25,8 @@ public class InterfaceDemo implements Shape {
 		//idObj.rectangle(); // cannot access we can do this to access it !.
 		Shape.rectangle(); // Static methods can be access by using the interface name, same to access the variables
 		
-		System.out.println(Shape);
+		
+		System.out.println(Shape.length + Shape.width);
 	}
 
 	@Override
