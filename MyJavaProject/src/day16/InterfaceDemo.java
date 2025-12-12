@@ -16,11 +16,16 @@ interface Shape{
 	}
 }
 
-public class InterfaceDemo {
+public class InterfaceDemo implements Shape {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void circle() {
+		System.out.println("This is a Circle -- Abstract method");
 	}
 
 }
