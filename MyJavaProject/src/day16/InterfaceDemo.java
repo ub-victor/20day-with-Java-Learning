@@ -22,7 +22,7 @@ public class InterfaceDemo implements Shape {
 		InterfaceDemo idObj = new InterfaceDemo();
 		idObj.circle(); // abstract
 		idObj.square();// default
-		idObj.rectangle();
+		idObj.rectangle(); // cannot access we can do this to acccess it !.
 	}
 
 	@Override
