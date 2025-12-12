@@ -11,8 +11,8 @@ interface Shape{
 		System.out.println("This is a Square -- default method");
 	}
 	
-	default void rectangle() {
-		System.out.println("This is a Rectangle -- default method");
+	static void rectangle() {
+		System.out.println("This is a Rectangle -- static method");
 	}
 }
 
