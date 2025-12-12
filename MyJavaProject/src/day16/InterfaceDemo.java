@@ -19,8 +19,8 @@ interface Shape{
 public class InterfaceDemo implements Shape {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		InterfaceDemo idObj = new InterfaceDemo();
+		idObj.circle(); // abstract
 	}
 
 	@Override
