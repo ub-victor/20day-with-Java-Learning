@@ -11,7 +11,7 @@ abstract class Animal {
 
 		@Override
 		void makeSound() {
-			// TODO Auto-generated method stub
+			System.out.println("Dog says woof Woof");
 			
 		}
 		
