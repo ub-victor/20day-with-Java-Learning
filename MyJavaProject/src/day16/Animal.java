@@ -6,6 +6,16 @@ abstract class Animal {
 	void sleep() {
 		System.out.println("Animal is sleeping");
 	}
+	
+	class Dog extends Animal{
+
+		@Override
+		void makeSound() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
