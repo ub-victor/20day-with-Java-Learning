@@ -16,9 +16,20 @@ abstract class Animal {
 		}
 		
 	}
+	
+	class Cat extends Animal{
+
+		@Override
+		void makeSound() {
+			System.out.println("Cat says meow meow");
+			
+		}
+		
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Animal dog = new Dog();
 
 	}
 
