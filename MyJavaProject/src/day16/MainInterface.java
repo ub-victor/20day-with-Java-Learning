@@ -40,8 +40,13 @@ class Bike implements Vehicle {
 public class MainInterface {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Vehicle car = new Car();
+		car.start();
+		car.stop();
+		
+		Vehicle bike = new Bike();
+		bike.start();
+		bike.stop();
 	}
 
 }
