@@ -38,5 +38,11 @@ public class MainAbs {
 
 	public static void main(String[] args) {
 		
+		 Shapes circle = new Circle(5);        // radius = 5
+	        Shapes rectangle = new Rectangle(4, 6); // width = 4, height = 6
+
+	        System.out.println("Circle area: " + circle.area());
+	        System.out.println("Rectangle area: " + rectangle.area());
+		
 	}
 }
