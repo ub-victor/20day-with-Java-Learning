@@ -14,6 +14,7 @@ interface Shape{
 	static void rectangle() {
 		System.out.println("This is a Rectangle -- static method");
 	}
+
 }
 
 public class InterfaceDemo implements Shape {
