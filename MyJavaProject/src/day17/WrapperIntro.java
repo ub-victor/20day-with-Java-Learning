@@ -6,7 +6,8 @@ public class WrapperIntro {
 		int a = 10; // primitive
 		Integer b = 20; // Wrapper object
 		
-		System.out.println();
+		System.out.println(a);
+		System.out.println(b);
 
 	}
 
