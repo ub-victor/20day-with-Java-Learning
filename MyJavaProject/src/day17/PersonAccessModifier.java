@@ -3,10 +3,10 @@ package day17;
 public class PersonAccessModifier {
 	
 	public String name = "Ushindi Bihame Victoire";
-	private int age = 21;
+	private int age= 21;
 	
 	public static void showAge(){ // 
-		System.out.println(getAge());
+		System.out.println(getAge(10));
 	}
 
 	public static void main(String[] args) {
