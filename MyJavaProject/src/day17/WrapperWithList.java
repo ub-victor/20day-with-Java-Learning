@@ -11,6 +11,7 @@ public class WrapperWithList {
 		
 		numbers.add(10);
 		numbers.add(10);
+		numbers.add(10);
 
 	}
 
