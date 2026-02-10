@@ -7,6 +7,8 @@ public class FinalPractice {
 		Integer b = a; // autobaxing
 		
 		int c = b; // Uboxing
+		
+		
 
 	}
 
