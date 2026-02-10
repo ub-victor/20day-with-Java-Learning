@@ -7,6 +7,7 @@ public class WrapperStringToInt {
 		int num = Integer.parseInt(age);
 		
 		int x = 10;
+		String 
 		
 		System.out.println(num);
 	}
