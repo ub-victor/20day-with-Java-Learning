@@ -9,8 +9,8 @@ public class FinalPractice {
 		int c = b; // Uboxing
 		
 		System.out.println(a);
-		System.out.println(a);
-		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
 
 	}
 
