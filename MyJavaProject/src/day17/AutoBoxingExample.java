@@ -4,6 +4,7 @@ public class AutoBoxingExample {
 
 	public static void main(String[] args) {
 		
+		int marks = 90;
 
 	}
 
