@@ -6,6 +6,8 @@ public class AutoBoxingExample {
 		
 		int marks = 90;
 		Integer score = marks; // autoboxing
+		
+		System.out.println(score);
 
 	}
 
