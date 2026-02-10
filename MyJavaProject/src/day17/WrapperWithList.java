@@ -14,6 +14,8 @@ public class WrapperWithList {
 		numbers.add(30);
 		
 		int sum = numbers.get(0);  // Unboxing
+		
+		System.out.println(number);
 
 	}
 
