@@ -15,7 +15,8 @@ public class WrapperWithList {
 		
 		int sum = numbers.get(0);  // Unboxing
 		
-		System.out.println(number);
+		System.out.println(numbers);
+		System.out.println(sum);
 
 	}
 
