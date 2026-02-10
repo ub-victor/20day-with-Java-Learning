@@ -6,6 +6,7 @@ org.eclipse.debug.ui.MemoryHistoryUnknownColor,defaultValueBeforeOverriddenFromC
 org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=150,80,115
 org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND,defaultValueBeforeOverriddenFromCSS=255,255,0
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
 org.eclipse.debug.ui.changedDebugElement=255,128,128
 org.eclipse.debug.ui.changedDebugElement,defaultValueBeforeOverriddenFromCSS=255,0,0
 org.eclipse.debug.ui.consoleBackground=53,53,53
