@@ -6,6 +6,8 @@ public class UnboxingExample {
 		Integer price = 100;
 		int total = price; // Unboxing
 		
+		System.out.println(total);
+		
 
 	}
 
