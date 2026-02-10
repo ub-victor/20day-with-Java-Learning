@@ -13,7 +13,7 @@ public class WrapperWithList {
 		numbers.add(20);
 		numbers.add(30);
 		
-		int sum = numbers.get(0);
+		int sum = numbers.get(0);  // Unboxing
 
 	}
 
