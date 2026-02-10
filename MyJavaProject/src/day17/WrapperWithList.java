@@ -8,6 +8,8 @@ public class WrapperWithList {
 		
 		
 		ArrayList<Integer> numbers = new ArrayList<>();
+		
+		numbers.add(10);
 
 	}
 
