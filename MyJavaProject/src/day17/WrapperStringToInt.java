@@ -11,7 +11,7 @@ public class WrapperStringToInt {
 		
 		System.out.println(num);
 		System.out.println(s);
-		System.out.println(100==100);
+		
 	}
 
 }
