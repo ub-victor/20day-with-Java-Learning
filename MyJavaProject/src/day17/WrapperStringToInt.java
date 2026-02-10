@@ -7,7 +7,7 @@ public class WrapperStringToInt {
 		int num = Integer.parseInt(age);
 		
 		int x = 10;
-		String s = String.valueOf(b);
+		String s = String.valueOf(x);
 		
 		System.out.println(num);
 	}
