@@ -10,6 +10,7 @@ public class WrapperStringToInt {
 		String s = String.valueOf(x);
 		
 		System.out.println(num);
+		System.out.println(s);
 	}
 
 }
