@@ -12,6 +12,8 @@ public class WrapperWithList {
 		numbers.add(10);
 		numbers.add(20);
 		numbers.add(30);
+		
+		int sum = numbers.get(0);
 
 	}
 
