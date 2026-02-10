@@ -6,7 +6,7 @@ public class PersonAccessModifier {
 	private int age = 21;
 
 	public static void main(String[] args) {
-		
+		public void showAge(){}
 
 	}
 
