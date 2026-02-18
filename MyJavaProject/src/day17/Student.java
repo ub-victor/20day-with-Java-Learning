@@ -4,8 +4,12 @@ public class Student {
 	
 	private int marks;
 	
-	public void getMarks(int m) {
+	public void setMarks(int m) {
 		marks = m;		
+	}
+	
+	public void getMarks() {
+		
 	}
 
 }
