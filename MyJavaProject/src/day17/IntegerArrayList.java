@@ -7,7 +7,7 @@ public class IntegerArrayList {
 		
 		nums.add(10);
 		nums.add(20);
-		nums.add(10);
+		nums.add(30);
 		nums.add(10);
 		nums.add(10);
 		nums.add(10);
