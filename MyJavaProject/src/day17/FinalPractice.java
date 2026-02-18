@@ -8,6 +8,9 @@ public class FinalPractice {
 		
 		int c = b; // Uboxing
 		
+		Integer z = 20;
+		
+		
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
