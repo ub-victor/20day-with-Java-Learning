@@ -4,8 +4,8 @@ public class Student {
 	
 	private int marks;
 	
-	public void setMark() {
-		
+	public void setMark( int m) {
+		marks = m;
 	}
 
 }
