@@ -1,1 +1,32 @@
-/.metadata/
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Eclipse project files (optional)
+.settings/
+.loadpath
+
+# Java
+*.class
+
+# Build folders
+target/
+out/
+build/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
