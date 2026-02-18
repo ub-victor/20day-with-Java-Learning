@@ -4,7 +4,7 @@ public class Student {
 	
 	private int marks;
 	
-	public void getMarks() {
+	public void getMarks(int m) {
 		
 	}
 
