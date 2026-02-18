@@ -6,7 +6,7 @@ public class IntegerArrayList {
 		ArrayList<Integer> nums = new ArrayList<Integer>();
 		
 		nums.add(10);
-		nums.add(10);
+		nums.add(20);
 		nums.add(10);
 		nums.add(10);
 		nums.add(10);
