@@ -9,7 +9,7 @@ public class Student {
 	}
 	
 	public void getMarks() {
-		
+		return marks;
 	}
 
 }
