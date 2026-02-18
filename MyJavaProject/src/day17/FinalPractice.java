@@ -15,6 +15,7 @@ public class FinalPractice {
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(z);
+		System.out.println(Integer.compare(100, 20));
 		
 
 	}
