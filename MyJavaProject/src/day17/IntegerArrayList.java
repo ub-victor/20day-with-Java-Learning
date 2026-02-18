@@ -9,7 +9,7 @@ public class IntegerArrayList {
 		nums.add(20);
 		nums.add(30);
 		nums.add(40);
-		nums.add(10);
+		nums.add(50);
 		nums.add(10);
 		nums.add(10);
 	}
