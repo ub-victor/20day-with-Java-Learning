@@ -6,7 +6,7 @@ public class IntegerComparison {
 		Integer a = 50;
 		Integer b = 50;
 		
-		
+		System.out.println(a.equals(b));
 
 	}
 
