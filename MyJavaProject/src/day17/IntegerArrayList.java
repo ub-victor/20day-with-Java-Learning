@@ -8,6 +8,7 @@ public class IntegerArrayList {
 		nums.add(10);
 		nums.add(10);
 		nums.add(10);
+		nums.add(10);
 	}
 
 	
