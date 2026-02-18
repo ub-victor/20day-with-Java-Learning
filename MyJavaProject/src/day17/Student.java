@@ -7,5 +7,9 @@ public class Student {
 	public void setMarks( int m) {
 		marks = m;
 	}
+	
+	private int getMarks() {
+		
+	}
 
 }
