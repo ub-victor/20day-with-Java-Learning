@@ -8,7 +8,7 @@ public class Student {
 		marks = m;
 	}
 	
-	private int getMarks() {
+	public int getMarks() {
 		return marks;
 	}
 
