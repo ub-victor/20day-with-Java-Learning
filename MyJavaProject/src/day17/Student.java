@@ -5,7 +5,7 @@ public class Student {
 	private int marks;
 	
 	public void getMarks(int m) {
-				
+		this marks = m;		
 	}
 
 }
