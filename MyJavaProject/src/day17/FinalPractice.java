@@ -9,7 +9,7 @@ public class FinalPractice {
 		int c = b; // Uboxing
 		
 		Integer z = 20;
-		
+		z = 30;
 		
 		System.out.println(a);
 		System.out.println(b);
