@@ -10,6 +10,6 @@ public class SimpleLogging {
 		logger.info("Message 1");
 		logger.info("Message 2");
 	
-	}
+	} 
 	
 }
