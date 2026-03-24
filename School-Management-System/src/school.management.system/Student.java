@@ -12,5 +12,9 @@ public class Student {
     private int grade;
     private int feesPaid;
     private int feesTotal;
+
+    public Student( int id, String name, int grade, int feesPaid, int feesTotal){
+        
+    }
     
 }
