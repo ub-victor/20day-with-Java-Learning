@@ -13,6 +13,13 @@ public class Student {
     private int feesPaid;
     private int feesTotal;
 
+
+    /**
+     * 
+     * To creare a new student by initializing.
+     * Fees for every student is $30, 000.
+     * Fees pain initially is 0. 
+     */
     public Student( int id, String name, int grade, int feesPaid, int feesTotal){
         this.feesPaid = 0;
         this.feesTotal = 30000;
