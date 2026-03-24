@@ -13,7 +13,7 @@ public class Student extends Person {
     private List<Course> enrolledCourses;
 
     public Student(String name, int age, String address, String studentId, String gradeLevel, String ){
-        super()
+        super(name, age, address);
     }
 
 
