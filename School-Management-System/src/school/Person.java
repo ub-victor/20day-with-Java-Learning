@@ -45,5 +45,7 @@ public class Person {
         this.address = address;
     }
 
+    // Display method - will be overridden by subclasses
+
     
 }
