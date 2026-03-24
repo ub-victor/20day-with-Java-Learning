@@ -14,8 +14,11 @@ public class Student extends Person {
 
     public Student(String name, int age, String address, String studentId, String gradeLevel, String ){
         super(name, age, address);
+        this.studentId = studentId;
+        this.gradeLevel = gradeLevel;
+        this.enrolledCourses = new ArrayList<>();
     }
 
 
-    
+   
 }
