@@ -10,6 +10,7 @@ import java.util.List;
 public class Student {
     private String studentId;
     private gradeLevel;
+    private List<Course> enrolledCourses;
 
 
     
