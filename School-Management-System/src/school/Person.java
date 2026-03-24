@@ -47,5 +47,11 @@ public class Person {
 
     // Display method - will be overridden by subclasses
 
+    public void displayInfo(){
+        System.out.println("Name: "+ name);
+        System.out.println("Name: "+ age);
+        System.out.println("Name: "+ address);
+    }
+
     
 }
