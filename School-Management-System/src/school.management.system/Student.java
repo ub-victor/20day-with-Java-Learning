@@ -79,9 +79,5 @@ public class Student {
         this.feesTotal = feesTotal;
     }
 
-    /*
-    Used to update the student's grade.
-    */
-
     
 }
