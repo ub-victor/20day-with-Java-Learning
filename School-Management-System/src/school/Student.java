@@ -12,7 +12,7 @@ public class Student extends Person {
     private String gradeLevel;
     private List<Course> enrolledCourses;
 
-    public Student(String studenyId, String gradeLevel, String )
+    public Student(String name, int age, String address, String studentId, String gradeLevel, String )
 
 
     
