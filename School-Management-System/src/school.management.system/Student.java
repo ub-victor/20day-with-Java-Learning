@@ -15,6 +15,7 @@ public class Student {
 
     public Student( int id, String name, int grade, int feesPaid, int feesTotal){
         this id = id;
+        this.name =  name;
     }
     
 }
