@@ -1,4 +1,6 @@
 package school;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Represents a student, extending Person.
@@ -6,6 +8,9 @@ package school;
  */
 
 public class Student {
-    
+    private String studentId;
+    private gradeLevel;
+
+
     
 }
