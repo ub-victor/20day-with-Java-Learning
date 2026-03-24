@@ -1,6 +1,16 @@
 package school.management.system;
 
-public class Student {
+/*
+This class  is responsible for keeping the 
+track of students fees, name, grade & fees paid
 
+*/
+
+public class Student {
+    private int id;
+    private String name;
+    private int grade;
+    private int feesPaid;
+    private int feesTotal;
     
 }
