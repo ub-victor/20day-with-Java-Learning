@@ -7,10 +7,12 @@ import java.util.List;
  * Adds student ID, grade level, and a list of courses the student is enrolled in
  */
 
-public class Student {
+public class Student extends Person {
     private String studentId;
-    private gradeLevel;
+    private String gradeLevel;
     private List<Course> enrolledCourses;
+
+    public Student(String studenyId, String gradeLevel, String )
 
 
     
