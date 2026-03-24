@@ -27,5 +27,5 @@ public class Student {
         this.name =  name;
         this.grade=grade;
     }
-    
+    // Not goint to alter student's name, student's id.
 }
