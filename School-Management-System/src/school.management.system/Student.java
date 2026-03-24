@@ -14,9 +14,9 @@ public class Student {
     private int feesTotal;
 
     public Student( int id, String name, int grade){
-        this id = id;
+        this.id = id;
         this.name =  name;
-        this.grade=grade
+        this.grade=grade;
     }
     
 }
