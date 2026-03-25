@@ -57,7 +57,9 @@ public class Student extends Person {
      */
 
     public void dropCourse(Course course){
-        
+        if(enrolledCourses.remove(course)){
+            course.removeStudent(this);
+        }
     }
 
 
