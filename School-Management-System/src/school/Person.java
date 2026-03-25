@@ -52,6 +52,6 @@ public class Person {
         System.out.println("Name: "+ age);
         System.out.println("Name: "+ address);
     }
-
+ 
     
 }
