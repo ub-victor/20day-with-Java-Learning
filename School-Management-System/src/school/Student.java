@@ -51,6 +51,11 @@ public class Student extends Person {
         this.enrolledCourses = enrolledCourses;
     }
 
+    /**
+     * Drops a course
+     * @param course the course to drop
+     */
+
 
    
 }
