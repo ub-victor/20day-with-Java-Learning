@@ -65,5 +65,14 @@ public class Student extends Person {
     }
 
 
+    @Override
+    public void displayInfo() {
+        // TODO Auto-generated method stub
+        super.displayInfo();
+    }
+
+    
+
+
    
 }
