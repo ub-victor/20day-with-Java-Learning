@@ -71,6 +71,7 @@ public class Student extends Person {
         super.displayInfo();
         System.out.println("Student ID:"+ studentId);
         System.out.println("Grade Level:"+ gradeLevel);
+        System.out.println("Enrolled Courses: ");
     }
 
     
