@@ -56,7 +56,7 @@ public class Student extends Person {
      * @param course the course to drop
      */
 
-    
+    public void dropCourse
 
 
    
