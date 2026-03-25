@@ -72,6 +72,10 @@ public class Student extends Person {
         System.out.println("Student ID:"+ studentId);
         System.out.println("Grade Level:"+ gradeLevel);
         System.out.println("Enrolled Courses: ");
+
+        if(enrolledCourses.isEmpty()){
+            System.out.println("None");
+        }
     }
 
     
