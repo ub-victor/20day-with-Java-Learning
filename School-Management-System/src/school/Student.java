@@ -67,8 +67,10 @@ public class Student extends Person {
 
     @Override
     public void displayInfo() {
-        System.out.println("--- Student Information---");
+        System.out.println("--- Student Information ---");
         super.displayInfo();
+        System.out.println("Student ID:"+ studentId);
+        System.out.println("Grade Level:"+ gradeLevel);
     }
 
     
