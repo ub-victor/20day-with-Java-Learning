@@ -75,6 +75,10 @@ public class Student extends Person {
 
         if(enrolledCourses.isEmpty()){
             System.out.println("None");
+        } else {
+            for (Course c : enrolledCourses){
+                System.out.println("   - " + c.getCourseId());
+            }
         }
     }
 
