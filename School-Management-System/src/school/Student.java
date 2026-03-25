@@ -80,10 +80,5 @@ public class Student extends Person {
                 System.out.println("   - " + c.getCourseId());
             }
         }
-    }
-
-    
-
-
-   
+    }  
 }
