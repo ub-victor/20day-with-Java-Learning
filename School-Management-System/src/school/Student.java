@@ -9,5 +9,7 @@ import java.util.List;
  */
 public class Student extends Person {
     private String studentId;
+    private String gradeLevel;  // e.g., "9th", "10th"
+    private List<Course>
      
 }
