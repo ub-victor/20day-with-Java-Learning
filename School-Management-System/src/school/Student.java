@@ -17,6 +17,7 @@ public class Student extends Person {
         super(name, age, address);
         this.studentId = studentId;
         this.gradeLevel = gradeLevel;
-        this.enrolledCourses = new ArrayList<>();  }
+        this.enrolledCourses = new ArrayList<>(); 
+     }
      
 }
